@@ -3,8 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 .pytest_cache/
-logs/
-*.log
+logs/*
+!logs/collector.log
 .DS_Store
 Thumbs.db
 
