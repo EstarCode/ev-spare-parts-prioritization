@@ -38,24 +38,34 @@ def generate_30_combination_coverage_matrix(
     
     matrix = []
     
+    def _matches_vehicle(v_model: str, rec: Dict[str, Any]) -> bool:
+        vm_low = v_model.lower()
+        rec_v = (str(rec.get("vehicle_model", "")) + " " + str(rec.get("vehicle_make", "")) + " " + str(rec.get("model", ""))).lower()
+        if "seagull" in vm_low:
+            return "seagull" in rec_v
+        elif "bz4x" in vm_low:
+            return "bz4x" in rec_v or "bz4" in rec_v
+        elif "id.4" in vm_low or "id.6" in vm_low:
+            return any(k in rec_v for k in ["id.4", "id4", "id.6", "id6", "meb"])
+        return False
+
     for v_model in selected_vehicles:
         for part_cat in ASSIGNED_PARTS:
             cat_matches = [
                 r for r in catalogue_records 
-                if (v_model.split()[0].lower() in r.get("vehicle_make", "").lower() or v_model.split()[-1].lower() in r.get("vehicle_model", "").lower())
-                and part_cat.lower() in r.get("part_category", "").lower()
+                if _matches_vehicle(v_model, r) and part_cat.lower() in str(r.get("part_category", "")).lower()
             ]
             
             avail_matches = [
                 r for r in availability_records
-                if (v_model.split()[0].lower() in r.get("vehicle_model", "").lower() or v_model.split()[-1].lower() in r.get("vehicle_model", "").lower())
-                and (part_cat.lower() in r.get("part_category", "").lower() or part_cat.lower() in r.get("part_description", "").lower())
+                if _matches_vehicle(v_model, r)
+                and (part_cat.lower() in str(r.get("part_category", "")).lower() or part_cat.lower() in str(r.get("part_description", "")).lower())
             ]
             
             quote_matches = [
                 r for r in quotation_records
-                if (v_model.split()[0].lower() in r.get("vehicle_model", "").lower() or v_model.split()[-1].lower() in r.get("vehicle_model", "").lower())
-                and (part_cat.lower() in r.get("part_category", "").lower() or part_cat.lower() in r.get("part_description", "").lower())
+                if _matches_vehicle(v_model, r)
+                and (part_cat.lower() in str(r.get("part_category", "")).lower() or part_cat.lower() in str(r.get("part_description", "")).lower())
             ]
             
             catalogue_found = "YES" if cat_matches else "NO"

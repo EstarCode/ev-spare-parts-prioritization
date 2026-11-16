@@ -34,6 +34,15 @@ def clean_and_normalize_parts_records(raw_parts: List[Dict[str, Any]]) -> List[D
             if key in desc:
                 assigned_cat = std_cat
                 break
+                
+        target_categories = {
+            "Brake pads", "Brake discs", "Shock absorbers", "Cabin-air filters",
+            "Wiper blades", "Side mirrors", "Headlights", "Tail lights",
+            "Bumpers", "Fenders/body panels"
+        }
+        if assigned_cat not in target_categories:
+            continue
+            
         c["part_category"] = assigned_cat
         
         mfg = str(c.get("manufacturer", "")).strip().lower()

@@ -169,6 +169,15 @@ def run_pipeline() -> dict:
     cleaned_vehicles = clean_and_normalize_vehicle_listings(all_vehicle_listings)
     duplicate_candidates = detect_vehicle_listing_duplicates(cleaned_vehicles)
     cleaned_parts = clean_and_normalize_parts_records(all_catalogue_records)
+    target_categories = {
+        "Brake pads", "Brake discs", "Shock absorbers", "Cabin-air filters",
+        "Wiper blades", "Side mirrors", "Headlights", "Tail lights",
+        "Bumpers", "Fenders/body panels"
+    }
+    cleaned_fitments = [
+        f for f in all_fitment_evidence
+        if f.get("part_category") in target_categories
+    ]
 
     logger.info("Building vehicle selection evidence and 30-combination matrix...")
     vehicle_selection_evidence = build_vehicle_selection_evidence(cleaned_vehicles)
@@ -185,7 +194,7 @@ def run_pipeline() -> dict:
     save_csv(cleaned_vehicles, data_dir / "vehicle_market_listings.csv", SCHEMAS["vehicle_market_listings"])
     save_csv(vehicle_selection_evidence, data_dir / "vehicle_selection_evidence.csv", SCHEMAS["vehicle_selection_evidence"])
     save_csv(cleaned_parts, data_dir / "parts_catalogue_records.csv", SCHEMAS["parts_catalogue_records"])
-    save_csv(all_fitment_evidence, data_dir / "fitment_evidence.csv", SCHEMAS["fitment_evidence"])
+    save_csv(cleaned_fitments, data_dir / "fitment_evidence.csv", SCHEMAS["fitment_evidence"])
     save_csv(all_availability_evidence, data_dir / "local_availability_evidence.csv", SCHEMAS["local_availability_evidence"])
     save_csv(all_suppliers, data_dir / "supplier_directory.csv", SCHEMAS["supplier_directory"])
     save_csv(all_quotations, data_dir / "supplier_quotations.csv", SCHEMAS["supplier_quotations"])

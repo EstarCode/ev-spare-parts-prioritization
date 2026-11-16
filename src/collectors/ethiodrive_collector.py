@@ -37,54 +37,59 @@ class EthiodriveCollector(BaseCollector):
             if "/listings/" in href and href not in seen_hrefs:
                 seen_hrefs.add(href)
                 href_lower = href.lower()
-                if any(k in href_lower or k in raw_text.lower() for k in ["volkswagen", "vw", "toyota", "bz", "byd", "id.4", "id.6", "id6", "id4", "estar", "benben"]):
-                    id_match = re.search(r"-(\d+)$", href)
-                    listing_id = f"ETHIODRIVE-{id_match.group(1)}" if id_match else f"ETHIODRIVE-{len(vehicle_listings)+1}"
+                combined_text = (href_lower + " " + raw_text.lower())
+                model = None
+                mfg = "Unknown"
+                if "seagull" in combined_text:
+                    mfg, model = "BYD", "Seagull"
+                elif "yuan" in combined_text and ("up" in combined_text or "pro" in combined_text):
+                    mfg, model = "BYD", "Yuan Up"
+                elif any(k in combined_text for k in ["benben", "e-star", "benni"]):
+                    mfg, model = "Changan", "Benben E-Star"
+                elif "bz4x" in combined_text:
+                    mfg, model = "Toyota", "bZ4X"
+                elif re.search(r"\bid[.\-_]?6\b", combined_text):
+                    mfg, model = "Volkswagen", "ID.6"
+                elif re.search(r"\bid[.\-_]?4\b", combined_text):
+                    mfg, model = "Volkswagen", "ID.4"
                     
-                    mfg = "Volkswagen" if "volkswagen" in href_lower else ("Toyota" if "toyota" in href_lower else ("BYD" if "byd" in href_lower else "Unknown"))
-                    model = "Unknown"
-                    if "id6" in href_lower or "id.6" in href_lower:
-                        model = "ID.6"
-                    elif "id4" in href_lower or "id.4" in href_lower:
-                        model = "ID.4"
-                    elif "bz3x" in href_lower or "bz4x" in href_lower or "bz" in href_lower:
-                        model = "bZ4X" if "bz4x" in href_lower else "bZ series (bZ3X/bZ4X)"
-                    elif "seagull" in href_lower:
-                        model = "Seagull"
-                    elif "yuan" in href_lower:
-                        model = "Yuan Up"
-                        
-                    price_match = re.search(r"([\d,]+)\s*Br", raw_text)
-                    price = price_match.group(1).replace(",", "") if price_match else ""
-                    
-                    year_match = re.search(r"\b(202[0-6])\b", href + " " + raw_text)
-                    year = year_match.group(1) if year_match else "2023"
-                    
-                    rec = {
-                        "listing_id": listing_id,
-                        "source_id": self.source_id,
-                        "source_name": self.source_name,
-                        "source_url": f"https://ethiodrive.com{href}",
-                        "manufacturer": mfg,
-                        "vehicle_model": model,
-                        "model_year": year,
-                        "trim_or_variant": href.split("/")[-1].replace("-", " ").title(),
-                        "asking_price": price,
-                        "currency": "ETB",
-                        "seller_name": "EthioDrive Verified Dealer",
-                        "seller_location": "Addis Ababa, Ethiopia",
-                        "vehicle_condition": "Used" if "km" in raw_text else "New",
-                        "listing_date": "2026-11",
-                        "collection_timestamp": get_utc_now_iso(),
-                        "listing_description": raw_text,
-                        "original_listing_text": raw_text,
-                        "image_reference": "",
-                        "original_platform": "EthioDrive",
-                        "extraction_method": "HTML_PARSING",
-                        "duplicate_candidate": "NO",
-                        "verification_status": "COLLECTED_FROM_SOURCE"
-                    }
-                    vehicle_listings.append(rec)
+                if not model:
+                    continue
+
+                id_match = re.search(r"-(\d+)$", href)
+                listing_id = f"ETHIODRIVE-{id_match.group(1)}" if id_match else f"ETHIODRIVE-{len(vehicle_listings)+1}"
+                
+                price_match = re.search(r"([\d,]+)\s*Br", raw_text)
+                price = price_match.group(1).replace(",", "") if price_match else ""
+                
+                year_match = re.search(r"\b(202[0-6])\b", href + " " + raw_text)
+                year = year_match.group(1) if year_match else "2023"
+                
+                rec = {
+                    "listing_id": listing_id,
+                    "source_id": self.source_id,
+                    "source_name": self.source_name,
+                    "source_url": f"https://ethiodrive.com{href}",
+                    "manufacturer": mfg,
+                    "vehicle_model": model,
+                    "model_year": year,
+                    "trim_or_variant": href.split("/")[-1].replace("-", " ").title(),
+                    "asking_price": price,
+                    "currency": "ETB",
+                    "seller_name": "EthioDrive Verified Dealer",
+                    "seller_location": "Addis Ababa, Ethiopia",
+                    "vehicle_condition": "Used" if "km" in raw_text else "New",
+                    "listing_date": "2026-11",
+                    "collection_timestamp": get_utc_now_iso(),
+                    "listing_description": raw_text,
+                    "original_listing_text": raw_text,
+                    "image_reference": "",
+                    "original_platform": "EthioDrive",
+                    "extraction_method": "HTML_PARSING",
+                    "duplicate_candidate": "NO",
+                    "verification_status": "COLLECTED_FROM_SOURCE"
+                }
+                vehicle_listings.append(rec)
 
         self.logger.info(f"EthioDrive collection finished: {len(vehicle_listings)} listings.")
         save_json(vehicle_listings, self.raw_dir / "extracted_vehicles.json")

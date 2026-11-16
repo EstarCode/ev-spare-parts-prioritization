@@ -21,7 +21,7 @@ def clean_and_normalize_vehicle_listings(raw_listings: List[Dict[str, Any]]) -> 
             model, mfg = "Yuan Up", "BYD"
         elif any(k in model.lower() or k in desc.lower() for k in ["benben", "benni", "e-star"]):
             model, mfg = "Benben E-Star", "Changan"
-        elif "bz4x" in model.lower() or "bz4x" in desc.lower() or "bz" in model.lower():
+        elif "bz4x" in model.lower() or "bz4x" in desc.lower() or "bz4" in model.lower():
             model, mfg = "bZ4X", "Toyota"
         elif "id.4 crozz" in model.lower() or "crozz" in desc.lower():
             model, mfg = "ID.4 Crozz", "Volkswagen"
@@ -29,6 +29,9 @@ def clean_and_normalize_vehicle_listings(raw_listings: List[Dict[str, Any]]) -> 
             model, mfg = "ID.6", "Volkswagen"
         elif "id.4" in model.lower() or "id4" in desc.lower():
             model, mfg = "ID.4", "Volkswagen"
+        else:
+            # Drop non-target vehicles that do not belong to the target candidate set
+            continue
             
         c["manufacturer"] = mfg
         c["vehicle_model"] = model

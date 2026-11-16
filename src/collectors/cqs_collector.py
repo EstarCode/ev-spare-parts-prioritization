@@ -42,7 +42,7 @@ class CqsCollector(BaseCollector):
             return "Fenders/body panels"
         if "shock" in d or "strut" in d:
             return "Shock absorbers"
-        return "Other chassis/body component"
+        return None
 
     def collect(self) -> Dict[str, Any]:
         self.logger.info("Executing CQS Auto Parts Collector for BYD Seagull...")
@@ -77,6 +77,8 @@ class CqsCollector(BaseCollector):
                 
             rec_id = f"CQS-BYD-SG-{idx+1:04d}"
             category = self._map_category(desc)
+            if category is None:
+                continue
             
             cat_record = {
                 "record_id": rec_id,

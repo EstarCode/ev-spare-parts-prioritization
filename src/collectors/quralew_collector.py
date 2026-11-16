@@ -36,54 +36,59 @@ class QuralewCollector(BaseCollector):
             raw_text = a.get_text().strip()
             if "/listings/" in href and href not in seen_hrefs:
                 seen_hrefs.add(href)
-                if any(k in raw_text.lower() or k in href.lower() for k in ["byd", "seagull", "yuan", "bz4x", "id.4", "id.6", "changan", "benben"]):
-                    id_match = re.search(r"/listings/([a-z0-9]+)", href)
-                    listing_id = f"QURALEW-{id_match.group(1)[:8]}" if id_match else f"QURALEW-{len(vehicle_listings)+1}"
+                combined_text = (href.lower() + " " + raw_text.lower())
+                model = None
+                mfg = "Unknown"
+                if "seagull" in combined_text:
+                    mfg, model = "BYD", "Seagull"
+                elif "yuan" in combined_text and ("up" in combined_text or "pro" in combined_text):
+                    mfg, model = "BYD", "Yuan Up"
+                elif any(k in combined_text for k in ["benben", "e-star", "benni"]):
+                    mfg, model = "Changan", "Benben E-Star"
+                elif "bz4x" in combined_text:
+                    mfg, model = "Toyota", "bZ4X"
+                elif re.search(r"\bid[.\-_]?6\b", combined_text):
+                    mfg, model = "Volkswagen", "ID.6"
+                elif re.search(r"\bid[.\-_]?4\b", combined_text):
+                    mfg, model = "Volkswagen", "ID.4"
                     
-                    mfg = "BYD" if "byd" in raw_text.lower() else ("Toyota" if "toyota" in raw_text.lower() else "Unknown")
-                    model = "BYD EV"
-                    if "seagull" in raw_text.lower():
-                        model = "Seagull"
-                    elif "yuan" in raw_text.lower():
-                        model = "Yuan Up"
-                    elif "sealion" in raw_text.lower():
-                        model = "Sealion"
-                    elif "tang" in raw_text.lower():
-                        model = "Tang"
-                    elif "leopard" in raw_text.lower():
-                        model = "Leopard"
-                        
-                    year_match = re.search(r"\b(202[0-6])\b", raw_text)
-                    year = year_match.group(1) if year_match else "2024"
-                    
-                    price_match = re.search(r"([\d,]+)\s*(?:ETB|Birr)", raw_text)
-                    price = price_match.group(1).replace(",", "") if price_match else ""
-                    
-                    rec = {
-                        "listing_id": listing_id,
-                        "source_id": self.source_id,
-                        "source_name": self.source_name,
-                        "source_url": f"https://quralew.et{href}",
-                        "manufacturer": mfg,
-                        "vehicle_model": model,
-                        "model_year": year,
-                        "trim_or_variant": raw_text[:50],
-                        "asking_price": price,
-                        "currency": "ETB",
-                        "seller_name": "Quralew Verified User",
-                        "seller_location": "Addis Ababa, Ethiopia",
-                        "vehicle_condition": "New" if "new" in raw_text.lower() else "Used",
-                        "listing_date": "2026-11",
-                        "collection_timestamp": get_utc_now_iso(),
-                        "listing_description": raw_text,
-                        "original_listing_text": raw_text,
-                        "image_reference": "",
-                        "original_platform": "Quralew",
-                        "extraction_method": "HTML_PARSING",
-                        "duplicate_candidate": "NO",
-                        "verification_status": "COLLECTED_FROM_SOURCE"
-                    }
-                    vehicle_listings.append(rec)
+                if not model:
+                    continue
+
+                id_match = re.search(r"/listings/([a-z0-9]+)", href)
+                listing_id = f"QURALEW-{id_match.group(1)[:8]}" if id_match else f"QURALEW-{len(vehicle_listings)+1}"
+                
+                year_match = re.search(r"\b(202[0-6])\b", raw_text)
+                year = year_match.group(1) if year_match else "2024"
+                
+                price_match = re.search(r"([\d,]+)\s*(?:ETB|Birr)", raw_text)
+                price = price_match.group(1).replace(",", "") if price_match else ""
+                
+                rec = {
+                    "listing_id": listing_id,
+                    "source_id": self.source_id,
+                    "source_name": self.source_name,
+                    "source_url": f"https://quralew.et{href}",
+                    "manufacturer": mfg,
+                    "vehicle_model": model,
+                    "model_year": year,
+                    "trim_or_variant": raw_text[:50],
+                    "asking_price": price,
+                    "currency": "ETB",
+                    "seller_name": "Quralew Verified User",
+                    "seller_location": "Addis Ababa, Ethiopia",
+                    "vehicle_condition": "New" if "new" in raw_text.lower() else "Used",
+                    "listing_date": "2026-11",
+                    "collection_timestamp": get_utc_now_iso(),
+                    "listing_description": raw_text,
+                    "original_listing_text": raw_text,
+                    "image_reference": "",
+                    "original_platform": "Quralew",
+                    "extraction_method": "HTML_PARSING",
+                    "duplicate_candidate": "NO",
+                    "verification_status": "COLLECTED_FROM_SOURCE"
+                }
+                vehicle_listings.append(rec)
 
         self.logger.info(f"Quralew collection finished: {len(vehicle_listings)} listings.")
         save_json(vehicle_listings, self.raw_dir / "extracted_vehicles.json")

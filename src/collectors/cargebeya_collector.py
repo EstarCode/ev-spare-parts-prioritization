@@ -38,20 +38,22 @@ class CargebeyaCollector(BaseCollector):
                 listing_id = f"CARGEB-{id_match.group(1)}" if id_match else f"CARGEB-{len(vehicle_listings)+1}"
                 
                 href_lower = href.lower()
-                mfg = "BYD" if "byd" in href_lower else ("Toyota" if "toyota" in href_lower else ("Volkswagen" if "volkswagen" in href_lower else "Unknown"))
-                model = "Unknown"
-                if "yuan" in href_lower:
-                    model = "Yuan Up"
-                elif "atto" in href_lower:
-                    model = "Atto 3"
-                elif "qin" in href_lower:
-                    model = "Qin Plus"
-                elif "seagull" in href_lower:
-                    model = "Seagull"
-                elif "bz4x" in href_lower or "bz" in href_lower:
-                    model = "bZ4X"
-                elif "id" in href_lower:
-                    model = "ID.4"
+                model = None
+                if "seagull" in href_lower:
+                    mfg, model = "BYD", "Seagull"
+                elif "yuan" in href_lower:
+                    mfg, model = "BYD", "Yuan Up"
+                elif any(k in href_lower for k in ["benben", "e-star", "benni"]):
+                    mfg, model = "Changan", "Benben E-Star"
+                elif "bz4x" in href_lower:
+                    mfg, model = "Toyota", "bZ4X"
+                elif re.search(r"\bid[.\-_]?6\b", href_lower):
+                    mfg, model = "Volkswagen", "ID.6"
+                elif re.search(r"\bid[.\-_]?4\b", href_lower):
+                    mfg, model = "Volkswagen", "ID.4"
+                    
+                if not model:
+                    continue
                     
                 year_match = re.search(r"\b(202[0-6])\b", raw_text)
                 year = year_match.group(1) if year_match else "2025"
