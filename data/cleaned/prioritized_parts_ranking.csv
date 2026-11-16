@@ -1,31 +1,31 @@
 priority_rank,vehicle_model,part_category,oem_reference,demand_score,scarcity_score,compatibility_score,practicality_score,confidence_score,composite_priority_score
-1,Volkswagen ID.4 / ID.6,Shock absorbers,1EA-413-031,0.796364,0.88,1.0,0.5342,0.8,0.819
-2,BYD Seagull,Shock absorbers,13505643-00,0.746364,0.88,1.0,0.5342,0.8,0.804
-3,Volkswagen ID.4 / ID.6,Brake discs,1EA-615-301,0.718919,0.88,1.0,0.4942,0.8,0.7898
-4,BYD Seagull,Brake discs,13423467-00,0.668919,0.88,1.0,0.4942,0.8,0.7748
-5,Volkswagen ID.4 / ID.6,Brake pads,1EA-698-151,0.718919,0.7,1.0,0.5342,1.0,0.7708
-6,Toyota bZ4X,Shock absorbers,48131-42C60,0.598239,0.88,1.0,0.5342,0.8,0.7596
-7,BYD Seagull,Brake pads,14758996-00,0.668919,0.7,1.0,0.5342,1.0,0.7558
-8,Toyota bZ4X,Brake discs,04466-F4020,0.520794,0.88,1.0,0.4942,0.8,0.7304
-9,Volkswagen ID.4 / ID.6,Headlights,11A-941-035,0.505946,0.88,1.0,0.4256,0.8,0.7156
-10,Volkswagen ID.4 / ID.6,Wiper blades,11A-955-427,0.468108,0.88,1.0,0.4958,0.8,0.7148
-11,Toyota bZ4X,Brake pads,04465-78020,0.520794,0.7,1.0,0.5342,1.0,0.7114
-12,BYD Seagull,Wiper blades,13567798-00,0.418108,0.88,1.0,0.4958,0.8,0.6998
-13,Volkswagen ID.4 / ID.6,Bumpers,11A-807-217,0.475676,0.88,1.0,0.339,0.8,0.6936
-14,Volkswagen ID.4 / ID.6,Tail lights,11A-945-095,0.48973,0.88,1.0,0.3056,0.8,0.6928
-15,Volkswagen ID.4 / ID.6,Fenders/body panels,11A-821-105,0.47027,0.88,1.0,0.319,0.8,0.6889
-16,BYD Seagull,Bumpers,14780070-00,0.425676,0.88,1.0,0.339,0.8,0.6786
-17,BYD Seagull,Tail lights,13608000-00,0.43973,0.88,1.0,0.3056,0.8,0.6778
-18,BYD Seagull,Fenders/body panels,14120451-00,0.42027,0.88,1.0,0.319,0.8,0.6739
-19,Volkswagen ID.4 / ID.6,Side mirrors,11A-857-507,0.32973,0.88,1.0,0.4958,0.8,0.6733
-20,Volkswagen ID.4 / ID.6,Cabin-air filters,1EA-819-669,0.210811,0.88,1.0,0.651,0.8,0.6609
-21,BYD Seagull,Side mirrors,13568569-00,0.27973,0.88,1.0,0.4958,0.8,0.6583
-22,Toyota bZ4X,Headlights,8110A-42790,0.307821,0.88,1.0,0.4256,0.8,0.6562
-23,Toyota bZ4X,Wiper blades,85110-42310,0.269983,0.88,1.0,0.4958,0.8,0.6554
-24,Toyota bZ4X,Bumpers,52021-42240,0.277551,0.88,1.0,0.339,0.8,0.6341
-25,Toyota bZ4X,Tail lights,8158A-42170,0.291605,0.88,1.0,0.3056,0.8,0.6333
-26,Toyota bZ4X,Fenders/body panels,53301-42160,0.272145,0.88,1.0,0.319,0.8,0.6295
-27,Toyota bZ4X,Side mirrors,8791A-42J70,0.131605,0.88,1.0,0.4958,0.8,0.6139
-28,Toyota bZ4X,Cabin-air filters,90467-05172,0.012686,0.88,1.0,0.651,0.8,0.6015
-29,BYD Seagull,Cabin-air filters,INQUIRY_REQUIRED,0.160811,0.88,0.8,0.651,0.5,0.5759
-30,BYD Seagull,Headlights,14129134-00,0.455946,0.2,1.0,0.4256,1.0,0.5506
+1,Volkswagen ID.4 / ID.6,Brake discs,1EA-615-301,0.7372,1.0,1.0,0.687,0.5714,0.8313
+2,Volkswagen ID.4 / ID.6,Shock absorbers,1EA-413-031,0.7341,1.0,1.0,0.687,0.5714,0.8304
+3,BYD Seagull,Brake discs,13423467-00,0.6538,1.0,1.0,0.687,0.5714,0.8063
+4,BYD Seagull,Shock absorbers,13505643-00,0.6508,1.0,1.0,0.687,0.5714,0.8054
+5,Volkswagen ID.4 / ID.6,Cabin-air filters,1EA-819-669,0.3397,1.0,1.0,1.0,0.5714,0.7591
+6,Volkswagen ID.4 / ID.6,Wiper blades,11A-955-427,0.5308,1.0,1.0,0.5306,0.5714,0.746
+7,Toyota bZ4X,Brake discs,04466-F4020,0.407,1.0,1.0,0.687,0.5714,0.7323
+8,Toyota bZ4X,Shock absorbers,48131-42C60,0.4039,1.0,1.0,0.687,0.5714,0.7314
+9,BYD Seagull,Brake pads,14758996-00,0.6538,0.5,1.0,0.687,1.0,0.7242
+10,BYD Seagull,Wiper blades,13567798-00,0.4474,1.0,1.0,0.5306,0.5714,0.7209
+11,Volkswagen ID.4 / ID.6,Brake pads,1EA-698-151,0.7372,0.5,1.0,0.687,0.7143,0.7206
+12,Volkswagen ID.4 / ID.6,Side mirrors,11A-857-507,0.4103,1.0,1.0,0.5306,0.5714,0.7098
+13,Volkswagen ID.4 / ID.6,Bumpers,11A-807-217,0.4968,1.0,1.0,0.2176,0.5714,0.6888
+14,Volkswagen ID.4 / ID.6,Fenders/body panels,11A-821-105,0.4936,1.0,1.0,0.2176,0.5714,0.6879
+15,BYD Seagull,Side mirrors,13568569-00,0.3269,1.0,1.0,0.5306,0.5714,0.6848
+16,Volkswagen ID.4 / ID.6,Headlights,11A-941-035,0.5532,1.0,1.0,0.0,0.5714,0.6731
+17,Volkswagen ID.4 / ID.6,Tail lights,11A-945-095,0.5436,1.0,1.0,0.0,0.5714,0.6702
+18,BYD Seagull,Bumpers,14780070-00,0.4135,1.0,1.0,0.2176,0.5714,0.6638
+19,BYD Seagull,Fenders/body panels,14120451-00,0.4103,1.0,1.0,0.2176,0.5714,0.6629
+20,Toyota bZ4X,Cabin-air filters,90467-05172,0.0095,1.0,1.0,1.0,0.5714,0.66
+21,Toyota bZ4X,Wiper blades,85110-42310,0.2006,1.0,1.0,0.5306,0.5714,0.6469
+22,BYD Seagull,Tail lights,13608000-00,0.4603,1.0,1.0,0.0,0.5714,0.6452
+23,Toyota bZ4X,Brake pads,04465-78020,0.407,0.5,1.0,0.687,0.7143,0.6216
+24,Toyota bZ4X,Side mirrors,8791A-42J70,0.08,1.0,1.0,0.5306,0.5714,0.6107
+25,Toyota bZ4X,Bumpers,52021-42240,0.1666,1.0,1.0,0.2176,0.5714,0.5898
+26,Toyota bZ4X,Fenders/body panels,53301-42160,0.1634,1.0,1.0,0.2176,0.5714,0.5888
+27,Toyota bZ4X,Headlights,8110A-42790,0.223,1.0,1.0,0.0,0.5714,0.574
+28,Toyota bZ4X,Tail lights,8158A-42170,0.2134,1.0,1.0,0.0,0.5714,0.5712
+29,BYD Seagull,Cabin-air filters,INQUIRY_REQUIRED,0.2564,1.0,0.0,1.0,0.0,0.4769
+30,BYD Seagull,Headlights,14129134-00,0.4699,0.0,1.0,0.0,1.0,0.441
