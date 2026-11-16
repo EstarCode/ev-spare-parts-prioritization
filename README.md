@@ -237,6 +237,16 @@ To ensure academic reproducibility and full provenance compliance under FORCE11 
 }
 ```
 
+### 7.2 Architectural Reference Repositories & Reuse Attribution
+
+In accordance with academic integrity guidelines and open-source citation standards, the following reference repositories were evaluated during pipeline architecture design:
+
+| Reference Repository | Domain / Focus | Reused & Adapted Components | Rejected / Modified Components |
+| :--- | :--- | :--- | :--- |
+| **[`3r1nC/automotive-part-interchange-database`](https://github.com/3r1nC/automotive-part-interchange-database)** | Relational interchange schema for OEM parts | Adapted part supersession and cross-model interchange indexing concepts into [`fitment_taxonomy.csv`](data/processed/fitment_taxonomy.csv). | Rejected full relational database server setup in favor of a portable, deterministic Medallion CSV pipeline. |
+| **[`fapi-dev/auto-parts-cross-reference`](https://github.com/fapi-dev/auto-parts-cross-reference)** | Cross-reference search API for aftermarket parts | Adapted multi-field compatibility matching logic for EV model/trim hierarchy (e.g., BYD Seagull Flying vs Dynamic). | Rejected live REST microservice deployment in favor of an offline-first, reproducible batch analytical processing workflow. |
+| **[`vivasvana1/SparePartsInventory`](https://github.com/vivasvana1/SparePartsInventory)** | Inventory management & replenishment modeling | Adapted multi-factor prioritization logic balancing stockout risk with procurement friction. | Rejected traditional ICE historical sales velocity formulas (inapplicable due to Ethiopia's post-2024 ICE ban); replaced with MCDA scoring driven by market visibility, local scarcity, and customs tariff friction. |
+
 ---
 
 ## 8. Quickstart & Setup
