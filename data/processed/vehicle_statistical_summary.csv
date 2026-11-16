@@ -1,0 +1,6 @@
+candidate_vehicle,total_extracted_listings,published_price_listings,price_disclosure_rate_pct,median_asking_price_etb,min_asking_price_etb,max_asking_price_etb,new_condition_pct,common_years
+BYD Seagull,393,298,75.8,3850000.0,600000.0,4900000.0,2.3,"2025.0, 2024.0"
+Toyota bZ4X,3,3,100.0,6650000.0,6300000.0,6800000.0,0.0,"2025.0, 2023.0"
+Volkswagen ID.4 / ID.6,548,445,81.2,6600000.0,2000000.0,28650001.0,1.6,"2022.0, 2023.0"
+BYD Yuan Up,471,340,72.2,5500000.0,1440000.0,6750000.0,7.4,"2025.0, 2026.0"
+Changan Benben E-Star,216,146,67.6,2700000.0,800000.0,3500000.0,0.9,"2023.0, 2024.0"

@@ -1,0 +1,82 @@
+[
+  {
+    "item_id": "MISS-001",
+    "vehicle_model": "Toyota bZ4X",
+    "part_category": "All 10 Categories",
+    "data_dimension": "Authorized Dealership Real-Time Stock Quantities",
+    "expected_source": "MOENCO Ethiopia (moencoethiopia.com)",
+    "reason_missing": "Source does not publish it",
+    "impact_on_analysis": "Exact dealer warehouse inventory units cannot be verified without submitting specific customer chassis/VIN numbers.",
+    "recommended_mitigation": "Direct supplier quotation inquiry using formal RFQ template."
+  },
+  {
+    "item_id": "MISS-002",
+    "vehicle_model": "BYD Seagull / Yuan Up",
+    "part_category": "All 10 Categories",
+    "data_dimension": "Authorized Dealership Stock Quantities & Prices",
+    "expected_source": "BYD Ethiopia / Inchcape (byd.com.et)",
+    "reason_missing": "Source does not publish it",
+    "impact_on_analysis": "Dealership requires booking an aftersales consultation desk inquiry.",
+    "recommended_mitigation": "Direct supplier quotation inquiry using formal RFQ template."
+  },
+  {
+    "item_id": "MISS-003",
+    "vehicle_model": "BYD Seagull",
+    "part_category": "Brake pads & discs, Bumpers",
+    "data_dimension": "International Supplier Web Catalog HTML",
+    "expected_source": "Landin BYD Parts (landinparts.com)",
+    "reason_missing": "Source is inaccessible",
+    "impact_on_analysis": "Interactive Cloudflare challenge prevented web crawling; per behavioral rules, anti-bot challenge was not bypassed.",
+    "recommended_mitigation": "Used CQS Auto Parts (Changsha CQS) as primary verified OEM part number reference repository."
+  },
+  {
+    "item_id": "MISS-004",
+    "vehicle_model": "Volkswagen ID.4 / ID.6",
+    "part_category": "Complete MEB Platform Catalog",
+    "data_dimension": "UAE Parts Distributor Web Pages",
+    "expected_source": "EXIST UAE (exist.ae)",
+    "reason_missing": "Source is inaccessible",
+    "impact_on_analysis": "Interactive Cloudflare challenge active on domain; automated scraping avoided per guidelines.",
+    "recommended_mitigation": "Used official Volkswagen MEB electronic parts catalogue (EPC) documentation for OEM numbers."
+  },
+  {
+    "item_id": "MISS-005",
+    "vehicle_model": "BYD / VW / Tesla",
+    "part_category": "Complete Catalog",
+    "data_dimension": "Full Product Inventory & User Prices",
+    "expected_source": "Ethio EV Spare Android App (com.evspare.buyer)",
+    "reason_missing": "Data requires account access",
+    "impact_on_analysis": "Public web portal exposes representative sample products; full dynamic inventory requires mobile login.",
+    "recommended_mitigation": "Extracted verified public inventory items and documented supplier ordering model."
+  },
+  {
+    "item_id": "MISS-006",
+    "vehicle_model": "BYD Seagull & Changan Benben",
+    "part_category": "Safety Failure Statistics",
+    "data_dimension": "Government Defect & Safety Complaints",
+    "expected_source": "NHTSA APIs (api.nhtsa.gov)",
+    "reason_missing": "Data is not applicable",
+    "impact_on_analysis": "Chinese domestic market vehicles are not sold in the US and do not register with the US DOT/NHTSA.",
+    "recommended_mitigation": "Preserved 0 count honestly; referenced local mechanic frequency reports and Chinese market defect registries."
+  },
+  {
+    "item_id": "MISS-007",
+    "vehicle_model": "Toyota bZ4X & VW ID.4",
+    "part_category": "Fenders, Bumpers, Headlights",
+    "data_dimension": "Local Commercial Wholesale Landing Prices",
+    "expected_source": "Sunny Spare Parts & Armana Motors",
+    "reason_missing": "Data requires supplier quotation",
+    "impact_on_analysis": "Vendors list vehicle fitment categories but require formal quotation for body panels.",
+    "recommended_mitigation": "Prepared formal supplier quotation inquiry sheet for client authorization."
+  },
+  {
+    "item_id": "MISS-008",
+    "vehicle_model": "Commercial & Passenger EV",
+    "part_category": "Vehicle Listings & Spare Parts",
+    "data_dimension": "Automotive Marketplace Ads",
+    "expected_source": "Autoline Ethiopia (autoline-et.com)",
+    "reason_missing": "Source is inaccessible",
+    "impact_on_analysis": "Server returned HTTP 429 Too Many Requests rate limiting block.",
+    "recommended_mitigation": "Relied on Adey Market, EthioDrive, and CarGebeya as primary marketplaces."
+  }
+]

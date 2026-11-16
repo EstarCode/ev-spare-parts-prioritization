@@ -1,0 +1,23 @@
+[
+  {
+    "supplier_id": "SUP-MOENCO-01",
+    "supplier_name": "MOENCO (The Motor and Engineering Company of Ethiopia S.C.)",
+    "website": "https://www.moencoethiopia.com/parts/",
+    "supplier_type": "Authorized Exclusive Distributor & Official Aftersales Dealer",
+    "country": "Ethiopia",
+    "city": "Addis Ababa",
+    "public_business_address": "MOENCO Building, Debrezeit Road, Addis Ababa, Ethiopia",
+    "public_business_phone": "+251 11 442 1200 / +251 11 442 1201",
+    "public_business_email": "parts@moencoethiopia.com",
+    "supported_vehicle_brands": "Toyota, Lexus, Hino",
+    "supported_models": "TOYOTA BZ4X BEV 4x2, RAV4 Hybrid, Corolla Cross Hybrid, Land Cruiser LC300, Hilux",
+    "parts_categories": "Complete Genuine Toyota OEM Spare Parts across all mechanical, electrical, body, and suspension systems",
+    "original_parts_claim": "Authorized sole distributor of genuine Toyota spare parts. 100% factory original with manufacturer warranty.",
+    "inventory_information_available": "No public stock database (VIN-based inquiry portal)",
+    "pricing_information_available": "Formal quotation upon VIN verification",
+    "inquiry_method": "Chassis/VIN-based inquiry at MOENCO parts desk or online parts inquiry form",
+    "source_url": "https://www.moencoethiopia.com/parts/",
+    "collection_date": "2026-11",
+    "verification_status": "CONFIRMED_AUTHORIZED_DISTRIBUTOR"
+  }
+]

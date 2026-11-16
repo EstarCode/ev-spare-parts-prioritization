@@ -1,0 +1,23 @@
+[
+  {
+    "supplier_id": "SUP-BYDETH-01",
+    "supplier_name": "BYD Ethiopia (Inchcape Motors Ethiopia)",
+    "website": "https://www.byd.com.et/",
+    "supplier_type": "Authorized National Distributor & Official Dealership Network",
+    "country": "Ethiopia",
+    "city": "Addis Ababa",
+    "public_business_address": "Inchcape Showroom, Addis Ababa, Ethiopia",
+    "public_business_phone": "Official Showroom Inquiry (byd.com.et)",
+    "public_business_email": "info@byd.com.et",
+    "supported_vehicle_brands": "BYD",
+    "supported_models": "BYD Seagull, BYD Yuan Up, BYD Song Plus, BYD Shark 6",
+    "parts_categories": "Factory Genuine BYD Electric Vehicle Replacement Components, Battery Diagnostics, Software Updates",
+    "original_parts_claim": "Authorized BYD distributor operated by Inchcape with dedicated aftersales service and genuine factory spare parts.",
+    "inventory_information_available": "No (Dealer inquiry portal and aftersales service desk)",
+    "pricing_information_available": "Inquiry based",
+    "inquiry_method": "Official dealership visit / Service booking at byd.com.et/services/",
+    "source_url": "https://www.byd.com.et/services/",
+    "collection_date": "2026-11",
+    "verification_status": "CONFIRMED_AUTHORIZED_DISTRIBUTOR"
+  }
+]

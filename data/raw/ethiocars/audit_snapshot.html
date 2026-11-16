@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ethioCars.com - Automotive Marketplace in Ethiopia</title>
+    <meta name="description" content="Buy, sell, and rent cars, trucks, and spare parts in Ethiopia with verified dealers, safe messaging, and trusted listings.">
+
+    <!-- SEO Meta -->
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="ethioCars">
+    <meta name="theme-color" content="#e74c3c">
+    <link rel="canonical" href="https://ethiocars.com/">
+    <link rel="preload" as="image" href="https://ethiocars.com/uploads/listings/ddadd27045984e93b541c185ab906602_thumb.jpg" fetchpriority="high">
+    <link rel="icon" href="/favicon.ico">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="ethioCars">
+    <meta property="og:title" content="ethioCars.com - Automotive Marketplace in Ethiopia">
+    <meta property="og:description" content="Buy, sell, and rent cars, trucks, and spare parts in Ethiopia with verified dealers, safe messaging, and trusted listings.">
+    <meta property="og:url" content="https://ethiocars.com/">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1617788138017-80ad40651399?q=80&w=1200&auto=format&fit=crop">
+    <meta property="og:image:alt" content="ethioCars marketplace listings">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="en_US">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="ethioCars.com - Automotive Marketplace in Ethiopia">
+    <meta property="twitter:description" content="Buy, sell, and rent cars, trucks, and spare parts in Ethiopia with verified dealers, safe messaging, and trusted listings.">
+    <meta property="twitter:image" content="https://images.unsplash.com/photo-1617788138017-80ad40651399?q=80&w=1200&auto=format&fit=crop">
+    <meta property="twitter:image:alt" content="ethioCars marketplace listings">
+    <!-- SEO Meta End -->
+
+    <!-- JSON-LD: WebPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "ethioCars.com - Automotive Marketplace in Ethiopia",
+      "url": "https://ethiocars.com/",
+      "description": "Buy, sell, and rent cars, trucks, and spare parts in Ethiopia with verified dealers, safe messaging, and trusted listings.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "ethioCars",
+        "url": "https://ethiocars.com",
+        "logo": "https://ethiocars.com/images/logo.png"
+      }
+    }
+    </script>
+
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Tailwind CSS (pre-built) -->
+    <link rel="stylesheet" href="/dist/tailwind.css?v=3">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+
+    <!-- JSON-LD Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoDealer",
+      "name": "ethioCars",
+      "url": "https://ethiocars.com",
+      "logo": "https://ethiocars.com/images/logo.png",
+      "description": "The leading automotive marketplace in Ethiopia for buying, selling, and renting vehicles.",
+      "areaServed": {
+        "@type": "Country",
+        "name": "Ethiopia"
+      },
+      "telephone": "+251909391973",
+      "email": "support@ethiocars.com"
+    }
+    </script>
+
+    <link rel="stylesheet" href="/styles.css?v=3">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tom-select@2.4.1/dist/css/tom-select.min.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tom-select@2.4.1/dist/css/tom-select.min.css"></noscript>
+</head>
+<body class="font-sans antialiased text-gray-700">
+
+    <!-- Compact Top Bar -->
+<div class="bg-gray-800 border-b border-gray-900 text-white">
+    <div class="container mx-auto px-2 max-w-[1200px] h-8 flex justify-between items-center text-[11px] text-gray-400">
+        <div class="flex space-x-3 divide-x divide-gray-600">
+            <span class="text-[10px]">Welcome to ethioCars Marketplace</span>
+        </div>
+        <div class="flex items-center space-x-3">
+            <div id="auth-links" class="flex items-center space-x-3 hover:text-white">
+                <a href="/auth#login" class="flex items-center space-x-1 hover:text-white" aria-label="Login">
+                    <i class="fas fa-user"></i>
+                    <span>Login</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Main Navigation Bar -->
+<header class="bg-white border-b border-gray-200 shadow-sm sticky top-0 z-50">
+    <div class="container mx-auto px-2 max-w-[1200px] h-12 flex items-center justify-between">
+        <!-- Logo -->
+        <a href="/" class="flex items-center leading-none mr-6" aria-label="ethioCars Home">
+            <img src="/images/logo.png" alt="ethiocars.com" width="185" height="36" class="h-9 w-auto">
+        </a>
+
+        <!-- Nav Menus -->
+        <nav class="hidden md:flex flex-grow space-x-1 h-full items-center">
+            <a href="/" class="nav-link is-active">Home</a>
+            <a href="/cars" class="nav-link ">Cars</a>
+            <a href="/rentals" class="nav-link ">Rentals</a>
+            <a href="/parts" class="nav-link ">Spare Parts</a>
+            <a href="/saved" class="nav-link ">Saved</a>
+            <a href="/alerts" class="nav-link auth-only-link hidden "><i class="fas fa-bell text-[10px] mr-0.5"></i>Alerts</a>
+            <a href="/about" class="nav-link ">About</a>
+            <a href="/contact" class="nav-link ">Contact</a>
+            <a href="/dashboard" class="nav-link ">Dashboard</a>
+        </nav>
+
+        <!-- Mobile Menu Toggle -->
+        <button id="mobile-menu-btn" class="md:hidden text-gray-500 hover:text-motor-red focus:outline-none p-2" aria-label="Toggle navigation menu">
+            <i class="fas fa-bars text-lg"></i>
+        </button>
+    </div>
+
+    <!-- Mobile Menu (Hidden by default) -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 absolute w-full left-0 top-12 shadow-lg">
+        <div class="flex flex-col p-2 space-y-1">
+            <a href="/" class="mobile-link">Home</a>
+            <a href="/cars" class="mobile-link">Cars</a>
+            <a href="/rentals" class="mobile-link">Rentals</a>
+            <a href="/parts" class="mobile-link">Spare Parts</a>
+            <a href="/saved" class="mobile-link">Saved</a>
+            <a href="/alerts" class="mobile-link auth-only-link hidden"><i class="fas fa-bell text-[10px] mr-1"></i>Alerts</a>
+            <a href="/about" class="mobile-link">About</a>
+            <a href="/contact" class="mobile-link">Contact</a>
+            <a href="/dashboard" class="mobile-link">Dashboard</a>
+        </div>
+    </div>
+</header>
+
+    <!-- Main Content Layout -->
+    <div class="container mx-auto px-2 max-w-[1200px] py-4 page-content">
+        <div class="flex flex-col lg:flex-row gap-4">
+
+            <!-- Left Column (Main) -->
+            <main class="w-full lg:w-3/4 flex flex-col gap-4">
+                <div>
+                    <h1 class="text-sm font-black uppercase text-gray-800">ethioCars Marketplace</h1>
+                    <p class="text-[11px] text-gray-500">Buy, sell, and rent cars and spare parts across Ethiopia with verified dealers.</p>
+                </div>
+
+                <!-- 1. Search Section -->
+                <div>
+                    <div class="flex items-end overflow-x-auto scrollbar-hide">
+                        <button onclick="switchSearchTab('cars')" id="tab-cars" class="search-tab active whitespace-nowrap">
+                            <i class="fas fa-car mr-2"></i> Find Cars
+                        </button>
+                        <button onclick="switchSearchTab('parts')" id="tab-parts" class="search-tab inactive ml-1 whitespace-nowrap">
+                            <i class="fas fa-cogs mr-2"></i> Find Parts
+                        </button>
+                        <button onclick="switchSearchTab('rents')" id="tab-rents" class="search-tab inactive ml-1 whitespace-nowrap">
+                            <i class="fas fa-key mr-2"></i> Car Rents
+                        </button>
+                    </div>
+
+                    <div class="bg-motor-red p-2 rounded-tr rounded-b text-white z-10 relative shadow-md">
+                        <!-- Find Cars Panel -->
+                        <div id="panel-cars" class="search-panel active">
+                            <form id="form-search-cars" action="/cars" method="GET" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6 gap-2 items-end">
+                                <div>
+                                    <label class="block text-[10px] font-bold mb-1 text-red-100 uppercase">Make</label>
+                                    <select name="make_id" data-make-select class="w-full rounded text-gray-700 search-select bg-white border-0 h-8 shadow-sm">
+                                        <option value="">Any Make</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block text-[10px] font-bold mb-1 text-red-100 uppercase">Model</label>
+                                    <select name="model_id" data-model-select class="w-full rounded text-gray-700 search-select bg-white border-0 h-8 shadow-sm">
+                                        <option value="">Any Model</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block text-[10px] font-bold mb-1 text-red-100 uppercase">Year</label>
+                                    <div class="flex gap-1">
+                                        <select name="year_from" data-year-min class="w-1/2 rounded text-gray-700 search-select bg-white border-0 h-8 px-1 shadow-sm" aria-label="Min Year"><option value="">Min</option></select>
+                                        <select name="year_to" data-year-max class="w-1/2 rounded text-gray-700 search-select bg-white border-0 h-8 px-1 shadow-sm" aria-label="Max Year"><option value="">Max</option></select>
+                                    </div>
+                                </div>
+                                <div>
+                                    <label class="block text-[10px] font-bold mb-1 text-red-100 uppercase">Price Range</label>
+                                    <select name="price_range" data-price-select class="w-full rounded text-gray-700 search-select bg-white border-0 h-8 shadow-sm">
+                                        <option value="">Any Price</option>
+                                    </select>
+                                </div>
+                                <div class="flex items-center gap-2 text-[9px] font-bold h-8 pb-1 w-full">
+                                    <label class="flex items-center cursor-pointer opacity-90 hover:opacity-100"><input type="radio" name="cond" value="Used" checked class="mr-1 accent-white"> Used</label>
+                                    <label class="flex items-center cursor-pointer opacity-90 hover:opacity-100"><input type="radio" name="cond" value="New" class="mr-1 accent-white"> New</label>
+                                </div>
+                                <div>
+                                    <button type="submit" class="bg-gray-900 hover:bg-black text-white font-bold h-8 w-full rounded shadow-lg uppercase text-xs transition-colors border-b-2 border-gray-950 px-3">
+                                        Search
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+
+                        <!-- Find Parts Panel -->
+                        <div id="panel-parts" class="search-panel">
+                             <form id="form-search-parts" action="/parts" method="GET" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6 gap-2 items-end">
+                                <div>
+                                    <label class="block text-[10px] font-bold mb-1 text-red-100 uppercase">Category</label>
+                                    <select name="part_category" data-category-select class="w-full rounded text-gray-700 search-select bg-white border-0 h-8 shadow-sm">
+                                        <option value="">Any Category</option>
+                                        <option value="Engine">Engine</option>
+                                        <option value="Transmission">Transmission</option>
+                                        <option value="Suspension">Suspension</option>
+                                        <option value="Brakes">Brakes</option>
+                                        <option value="Electrical">Electrical</option>
+                                        <option value="Exhaust">Exhaust</option>
+                                        <option value="Cooling">Cooling</option>
+                                        <option value="Fuel System">Fuel System</option>
+                                        <option value="Interior">Interior</option>
+                                        <option value="Exterior">Exterior</option>
+                                        <option value="Body Parts">Body Parts</option>
+                                        <option value="Wheels & Tires">Wheels & Tires</option>
+                                        <option value="Accessories">Accessories</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block text-[10px] font-bold mb-1 text-red-100 uppercase">Car Make</label>
+                                    <select name="make_id" data-make-select class="w-full rounded text-gray-700 search-select bg-white border-0 h-8 shadow-sm">
+                                        <option value="">Any Make</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block text-[10px] font-bold mb-1 text-red-100 uppercase">Condition</label>
+                                    <select name="condition" data-condition-select class="w-full rounded text-gray-700 search-select bg-white border-0 h-8 shadow-sm">
+                                        <option value="">Any Condition</option>
+                                        <option value="New">New</option>
+                                        <option value="Used - Like New">Used - Like New</option>
+                                        <option value="Used - Good">Used - Good</option>
+                                        <option value="Used - Fair">Used - Fair</option>
+                                        <option value="Refurbished">Refurbished</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block text-[10px] font-bold mb-1 text-red-100 uppercase">Max Price</label>
+                                    <select name="max_price" class="w-full rounded text-gray-700 search-select bg-white border-0 h-8 shadow-sm">
+                                        <option value="">Any Price</option>
+                                        <option value="5000">ETB 5,000</option>
+                                        <option value="10000">ETB 10,000</option>
+                                        <option value="25000">ETB 25,000</option>
+                                        <option value="50000">ETB 50,000</option>
+                                        <option value="100000">ETB 100,000</option>
+                                    </select>
+                                </div>
+                                <div></div>
+                                <div>
+                                    <button type="submit" class="bg-gray-900 hover:bg-black text-white font-bold h-8 w-full rounded shadow-lg uppercase text-xs transition-colors border-b-2 border-gray-950 px-3">
+                                        Search
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+
+                        <!-- Rent Car Panel -->
+                        <div id="panel-rents" class="search-panel">
+                             <form id="form-search-rents" action="/rentals" method="GET" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6 gap-2 items-end">
+                                <div>
+                                    <label class="block text-[10px] font-bold mb-1 text-red-100 uppercase">Body Type</label>
+                                    <select name="body_type" data-body-select class="w-full rounded text-gray-700 search-select bg-white border-0 h-8 shadow-sm">
+                                        <option value="">Any Type</option>
+                                        <option value="SUV">SUV</option>
+                                        <option value="Sedan">Sedan</option>
+                                        <option value="Hatchback">Hatchback</option>
+                                        <option value="Pickup">Pickup</option>
+                                        <option value="Van">Van</option>
+                                        <option value="Minibus">Minibus</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block text-[10px] font-bold mb-1 text-red-100 uppercase">Start Date</label>
+                                    <input type="date" name="start_date" class="w-full rounded text-gray-700 bg-white border-0 h-8 px-2 shadow-sm">
+                                </div>
+                                <div>
+                                    <label class="block text-[10px] font-bold mb-1 text-red-100 uppercase">End Date</label>
+                                    <input type="date" name="end_date" class="w-full rounded text-gray-700 bg-white border-0 h-8 px-2 shadow-sm">
+                                </div>
+                                <div>
+                                    <label class="block text-[10px] font-bold mb-1 text-red-100 uppercase">Max Rate</label>
+                                    <select name="max_daily_rate" class="w-full rounded text-gray-700 search-select bg-white border-0 h-8 shadow-sm">
+                                        <option value="">Any Rate</option>
+                                        <option value="2000">ETB 2,000/day</option>
+                                        <option value="5000">ETB 5,000/day</option>
+                                        <option value="10000">ETB 10,000/day</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block text-[10px] font-bold mb-1 text-red-100 uppercase">Driver</label>
+                                    <label class="flex items-center gap-1 text-[10px] font-bold text-white/80 h-8 cursor-pointer">
+                                        <input type="checkbox" name="with_driver" class="mr-1 accent-white"> Included
+                                    </label>
+                                </div>
+                                <div>
+                                    <button type="submit" class="bg-gray-900 hover:bg-black text-white font-bold h-8 w-full rounded shadow-lg uppercase text-xs transition-colors border-b-2 border-gray-950 px-3">
+                                        Search
+                                    </button>
+                                </div>
+                           </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Listings Section -->
+                <section aria-label="Vehicle Listings">
+                    <div class="flex border-b border-gray-300 mb-3 overflow-x-auto scrollbar-hide">
+                        <button class="tab-btn active whitespace-nowrap" style="margin-bottom: -1px; border-bottom-color: #fff;" data-listing-tab="latest" type="button">Latest Arrivals</button>
+                        <button class="tab-btn ml-1 whitespace-nowrap" data-listing-tab="popular" type="button">Most Popular</button>
+                        <button class="tab-btn ml-1 whitespace-nowrap" data-listing-tab="deals" type="button">Best Deals</button>
+                        <div id="listing-count" class="ml-auto text-xs text-gray-500 font-bold self-center pl-2 whitespace-nowrap">
+                            Loading...
+                        </div>
+                    </div>
+
+                    <div id="listing-latest" class="tab-panel listing-panel active">
+                        <div id="grid-latest" class="dense-grid"></div>
+                        <div id="pagination-latest" class="mt-6 flex justify-center gap-1"></div>
+                    </div>
+
+                    <div id="listing-popular" class="tab-panel listing-panel">
+                        <div id="grid-popular" class="dense-grid"></div>
+                        <div id="pagination-popular" class="mt-6 flex justify-center gap-1"></div>
+                    </div>
+
+                    <div id="listing-deals" class="tab-panel listing-panel">
+                        <div id="grid-deals" class="dense-grid"></div>
+                        <div id="pagination-deals" class="mt-6 flex justify-center gap-1"></div>
+                    </div>
+                </section>
+            </main>
+
+            <!-- Right Column: Sidebar -->
+            <aside class="w-full lg:w-1/4 space-y-4">
+
+                <!-- Welcome Widget -->
+                <div class="bg-white border border-gray-200 p-4 shadow-sm rounded-sm mt-5">
+                    <h3 class="font-bold text-gray-700 text-xs uppercase mb-2 border-b border-gray-100 pb-2">Welcome to ethioCars</h3>
+                    <p class="text-[11px] text-gray-500 leading-relaxed">
+                        The #1 marketplace for vehicles in Ethiopia. Buy, sell, and rent with confidence through verified
+                        dealers, transparent listings, and safe messaging.
+                    </p>
+                    <ul class="mt-3 text-[11px] text-gray-500 space-y-2">
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-motor-green"></i> Verified dealers and trusted listings.</li>
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-motor-green"></i> Cars, rentals, and spare parts in one place.</li>
+                        <li class="flex items-center gap-2"><i class="fas fa-check text-motor-green"></i> Local pricing and fast seller response times.</li>
+                    </ul>
+                </div>
+
+                <!-- Popular Makes Widget -->
+                <div class="bg-white border border-gray-200 rounded-sm">
+                    <div class="bg-gray-100 p-2.5 border-b border-gray-200 flex justify-between items-center">
+                        <h3 class="font-bold text-gray-700 text-[11px] uppercase">Popular Makes</h3>
+                        <a href="/cars" class="text-[9px] text-motor-blue hover:underline">View All</a>
+                    </div>
+                    <div id="popular-makes-list" class="p-3 space-y-3">
+                        <div class="animate-pulse space-y-3">
+                            <div class="flex items-center gap-3"><div class="w-8 h-8 rounded-full bg-gray-200"></div><div class="flex-grow"><div class="h-3 bg-gray-200 rounded w-2/3"></div></div></div>
+                            <div class="flex items-center gap-3"><div class="w-8 h-8 rounded-full bg-gray-200"></div><div class="flex-grow"><div class="h-3 bg-gray-200 rounded w-1/2"></div></div></div>
+                            <div class="flex items-center gap-3"><div class="w-8 h-8 rounded-full bg-gray-200"></div><div class="flex-grow"><div class="h-3 bg-gray-200 rounded w-3/4"></div></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Popular Dealers Widget -->
+                <div class="bg-white border border-gray-200 rounded-sm">
+                    <div class="bg-gray-100 p-2.5 border-b border-gray-200 flex justify-between items-center">
+                        <h3 class="font-bold text-gray-700 text-[11px] uppercase">Popular Dealers</h3>
+                    </div>
+                    <div id="popular-dealers-list" class="p-3 space-y-3">
+                        <div class="animate-pulse space-y-3">
+                            <div class="flex items-center gap-3"><div class="w-8 h-8 rounded-full bg-gray-200"></div><div class="flex-grow"><div class="h-3 bg-gray-200 rounded w-2/3"></div></div></div>
+                            <div class="flex items-center gap-3"><div class="w-8 h-8 rounded-full bg-gray-200"></div><div class="flex-grow"><div class="h-3 bg-gray-200 rounded w-1/2"></div></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cars by Region -->
+                <div class="bg-white border border-gray-200 rounded-sm">
+                    <div class="bg-gray-100 p-2.5 border-b border-gray-200">
+                        <h3 class="font-bold text-gray-700 text-[11px] uppercase">Cars by Region</h3>
+                    </div>
+                    <ul id="cars-by-region-list" class="divide-y divide-gray-200 text-[11px]">
+                        <li class="p-2.5 animate-pulse"><div class="h-3 bg-gray-200 rounded w-3/4"></div></li>
+                        <li class="p-2.5 animate-pulse"><div class="h-3 bg-gray-200 rounded w-1/2"></div></li>
+                        <li class="p-2.5 animate-pulse"><div class="h-3 bg-gray-200 rounded w-2/3"></div></li>
+                        <li class="p-2.5 animate-pulse"><div class="h-3 bg-gray-200 rounded w-1/2"></div></li>
+                    </ul>
+                    <div class="bg-gray-50 p-2 text-center border-t border-gray-200">
+                        <a href="/cars" class="text-[10px] text-gray-500 font-bold uppercase hover:text-motor-red">View All Regions</a>
+                    </div>
+                </div>
+
+                <!-- Contact Widget -->
+                <div class="bg-white border border-gray-200 p-4 shadow-sm rounded-sm">
+                    <h3 class="font-bold text-gray-600 text-[11px] uppercase border-b border-gray-200 pb-2 mb-3">Quick Contact</h3>
+                    <div class="space-y-3 text-[11px]">
+                        <div class="flex items-center gap-3">
+                            <div class="w-6 text-center"><i class="fas fa-envelope text-motor-red text-sm"></i></div>
+                            <a href="mailto:support@ethiocars.com" class="hover:underline text-gray-600 font-medium">support@ethiocars.com</a>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <div class="w-6 text-center"><i class="fab fa-telegram text-blue-500 text-sm"></i></div>
+                            <a href="https://t.me/ethiocars_com" target="_blank" rel="noopener" class="hover:underline text-blue-500 font-bold">Join our Telegram</a>
+                        </div>
+                        <div class="pt-3">
+                            <a href="https://t.me/ethiocars_com" target="_blank" rel="noopener" class="block bg-gray-800 text-white text-center py-2.5 rounded hover:bg-gray-700 transition flex items-center justify-center gap-2 shadow">
+                                <i class="fab fa-telegram"></i> Join on Telegram
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ad slot: hidden until an ad is served -->
+                <div id="ad-sidebar" class="hidden"></div>
+
+            </aside>
+        </div>
+    </div>
+
+    <footer class="site-footer bg-gray-900 border-t border-gray-800 pt-10 pb-6 text-gray-400">
+    <div class="container mx-auto px-2 max-w-[1200px]">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-10">
+            <div>
+                <h4 class="font-bold text-white text-xs mb-4 uppercase tracking-wider border-b border-gray-700 pb-2 inline-block">Marketplace</h4>
+                <ul class="space-y-2 text-[11px]">
+                    <li><a href="/" class="hover:text-white transition-colors">Home</a></li>
+                    <li><a href="/cars" class="hover:text-white transition-colors">Cars for Sale</a></li>
+                    <li><a href="/rentals" class="hover:text-white transition-colors">Cars for Rent</a></li>
+                    <li><a href="/parts" class="hover:text-white transition-colors">Spare Parts</a></li>
+                    <li><a href="/alerts" class="hover:text-white transition-colors">Alerts</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold text-white text-xs mb-4 uppercase tracking-wider border-b border-gray-700 pb-2 inline-block">Company</h4>
+                <ul class="space-y-2 text-[11px]">
+                    <li><a href="/about" class="hover:text-white transition-colors">About Us</a></li>
+                    <li><a href="/contact" class="hover:text-white transition-colors">Contact</a></li>
+                    <li><a href="/dashboard" class="hover:text-white transition-colors">Dashboard</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold text-white text-xs mb-4 uppercase tracking-wider border-b border-gray-700 pb-2 inline-block">Legal</h4>
+                <ul class="space-y-2 text-[11px]">
+                    <li><a href="/terms" class="hover:text-white transition-colors">Terms of Use</a></li>
+                    <li><a href="/privacy" class="hover:text-white transition-colors">Privacy Policy</a></li>
+                    <li><a href="/support" class="hover:text-white transition-colors">Support</a></li>
+                </ul>
+            </div>
+            <div>
+                 <h4 class="font-bold text-white text-xs mb-4 uppercase tracking-wider border-b border-gray-700 pb-2 inline-block">Contact</h4>
+                 <div class="text-[11px] space-y-1">
+                     <p><span class="font-bold text-gray-500">Phone:</span> 0909 391 973 <span class="text-gray-500">(Telegram only)</span></p>
+                     <p><span class="font-bold text-gray-500">Email:</span> support@ethiocars.com</p>
+                     <p><span class="font-bold text-gray-500">Address:</span> Addis Ababa, Ethiopia</p>
+                 </div>
+            </div>
+        </div>
+
+        <div class="border-t border-gray-800 pt-6 flex flex-col md:flex-row justify-between items-center text-[10px] text-gray-500">
+            <div class="flex items-center gap-2 mb-4 md:mb-0">
+                <span>(c) 2026 ethiocars.com. All rights reserved.</span>
+            </div>
+            <div class="flex items-center gap-3">
+                <a href="https://fb.com/61585030255930" target="_blank" rel="noopener" class="w-8 h-8 rounded-full bg-gray-800 text-white flex items-center justify-center hover:bg-blue-600 transition-colors text-xs" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://t.me/ethiocars_com" target="_blank" rel="noopener" class="w-8 h-8 rounded-full bg-gray-800 text-white flex items-center justify-center hover:bg-blue-500 transition-colors text-xs" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+                <a href="https://www.instagram.com/ethiocars_com?igsh=MWJxcnJqNnh5eW1kMA==" target="_blank" rel="noopener" class="w-8 h-8 rounded-full bg-gray-800 text-white flex items-center justify-center hover:bg-pink-500 transition-colors text-xs" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://tiktok.com/@ethiocars.com" target="_blank" rel="noopener" class="w-8 h-8 rounded-full bg-gray-800 text-white flex items-center justify-center hover:bg-gray-600 transition-colors text-xs" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/tom-select@2.4.1/dist/js/tom-select.complete.min.js" defer></script>
+    <script src="/js/api.js?v=17" defer></script>
+    <script src="/js/tom-select-init.js?v=1" defer></script>
+    <script src="/js/index.js?v=12" defer></script>
+</body>
+</html>

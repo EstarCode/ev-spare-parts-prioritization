@@ -1,0 +1,23 @@
+[
+  {
+    "supplier_id": "SUP-ETHIOEV-01",
+    "supplier_name": "Ethio EV Spare",
+    "website": "https://auto-s-sooty.vercel.app/",
+    "supplier_type": "Dedicated Electric Vehicle Spare Parts Platform & Logistics Hub",
+    "country": "Ethiopia",
+    "city": "Addis Ababa",
+    "public_business_address": "Bole Medhanialem, EV Logistics Hub, Addis Ababa, Ethiopia",
+    "public_business_phone": "Support hotline via mobile app",
+    "public_business_email": "support@ethioevspare.et",
+    "supported_vehicle_brands": "BYD (Song PLUS, Yuan PLUS), Volkswagen ID (ID.4, ID.6), Tesla, Zeekr, Geely",
+    "supported_models": "BYD Song Plus, BYD Yuan Plus / Yuan Up, VW ID.4, VW ID.6, Tesla Model 3/Y",
+    "parts_categories": "Regenerative Brakes, Suspension & Steering, EV Body & Matrix Lighting, Cooling & Thermal Inverters, High-Voltage Battery Components",
+    "original_parts_claim": "100% GENUINE ELECTRIC VEHICLE SPARE PARTS. Verified OEM inventory in Addis Ababa for direct dispatch.",
+    "inventory_information_available": "Yes (Online catalog with live stock quantities)",
+    "pricing_information_available": "Yes (Transparent public prices in ETB)",
+    "inquiry_method": "Online Web Storefront & Android App (com.evspare.buyer)",
+    "source_url": "https://auto-s-sooty.vercel.app/",
+    "collection_date": "2026-11",
+    "verification_status": "CONFIRMED_LOCAL_OPERATOR"
+  }
+]

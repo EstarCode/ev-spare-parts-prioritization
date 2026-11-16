@@ -1,0 +1,24 @@
+[
+  {
+    "availability_id": "MOENCO-AVAIL-001",
+    "supplier_name": "MOENCO Ethiopia",
+    "vehicle_model": "Toyota bZ4X",
+    "part_category": "Toyota Genuine Spare Parts (All Categories)",
+    "part_description": "Genuine Toyota OEM replacement parts for TOYOTA BZ4X BEV 4x2 via official dealership inquiry",
+    "OEM_part_number": "VIN_MATCHED_ON_INQUIRY",
+    "supplier_SKU": "MOENCO-TOY-BZ4X",
+    "stock_status": "AVAILABLE_ON_ORDER",
+    "quantity_in_stock": "",
+    "listed_price": "",
+    "currency": "ETB",
+    "location": "Addis Ababa (Debrezeit Rd), Hawassa, Adama, Dire Dawa, Bahir Dar",
+    "delivery_information": "Official dealership distribution network",
+    "lead_time": "Immediate if warehouse stocked; 14-30 days for air/sea factory consignment",
+    "availability_date": "2026-11",
+    "source_url": "https://www.moencoethiopia.com/parts/",
+    "collection_timestamp": "2026-11-16T13:37:40.735238+00:00",
+    "original_text": "TOYOTA BZ4X BEV 4x2 listed under MOENCO Parts & Genuine Service",
+    "evidence_type": "AUTHORIZED_DISTRIBUTOR",
+    "verification_status": "AUTHORIZED_DISTRIBUTOR_CONFIRMED"
+  }
+]

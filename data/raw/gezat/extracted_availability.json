@@ -1,0 +1,24 @@
+[
+  {
+    "availability_id": "GEZAT-AVAIL-001",
+    "supplier_name": "Gezat Electric",
+    "vehicle_model": "BYD Seagull",
+    "part_category": "Vehicle Import & Aftersales Consultation",
+    "part_description": "Complete vehicle import on demand and charging service support",
+    "OEM_part_number": "",
+    "supplier_SKU": "GEZAT-BYD-SEAGULL",
+    "stock_status": "AVAILABLE_ON_ORDER",
+    "quantity_in_stock": "",
+    "listed_price": "",
+    "currency": "ETB",
+    "location": "Addis Ababa, Ethiopia",
+    "delivery_information": "Showroom delivery or import lead time 30-45 days",
+    "lead_time": "30-45 days",
+    "availability_date": "2026-11",
+    "source_url": "https://ev.gezat.et/byd/seagull",
+    "collection_timestamp": "2026-11-16T13:37:40.585960+00:00",
+    "original_text": "Pick a model. Try its colours. Find your electric. Reference colours. Local availability to be confirmed.",
+    "evidence_type": "IDENTIFIED_LOCAL_SUPPLIER",
+    "verification_status": "COLLECTED_FROM_SOURCE"
+  }
+]

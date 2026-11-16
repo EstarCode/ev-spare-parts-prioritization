@@ -1,0 +1,23 @@
+[
+  {
+    "supplier_id": "SUP-SPAREHUB-01",
+    "supplier_name": "SpareHub Ethiopia",
+    "website": "https://sparehubethiopia.com/",
+    "supplier_type": "Digital Spare Parts Marketplace & Quotation Brokerage",
+    "country": "Ethiopia",
+    "city": "Addis Ababa",
+    "public_business_address": "Addis Ababa, Ethiopia",
+    "public_business_phone": "Online Request System",
+    "public_business_email": "support@sparehubethiopia.com",
+    "supported_vehicle_brands": "All automotive brands operating in Ethiopia (Toyota, BYD, Changan, VW, etc.)",
+    "supported_models": "On-demand buyer request submission",
+    "parts_categories": "All vehicle mechanical, body, and electrical spare parts",
+    "original_parts_claim": "Marketplace connecting buyers to multiple verified spare parts sellers in Ethiopia.",
+    "inventory_information_available": "No public warehouse inventory (Aggregator/RFQ model)",
+    "pricing_information_available": "Competitive seller bidding per request",
+    "inquiry_method": "Submit Part Request Form / Telegram Quotation Channel",
+    "source_url": "https://sparehubethiopia.com/",
+    "collection_date": "2026-11",
+    "verification_status": "CONFIRMED_QUOTATION_BROKER"
+  }
+]

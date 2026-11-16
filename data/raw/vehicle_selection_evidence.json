@@ -1,0 +1,67 @@
+[
+  {
+    "vehicle_model": "BYD Seagull",
+    "manufacturer": "BYD",
+    "market_listings_count": "506 listings across surveyed portals (Adey Market deep crawl, Gezat)",
+    "unique_listings_count": 480,
+    "distinct_sellers_count": "15+ distinct dealerships (AfroMekina, Abdex, Royal Cars, Sol Solution)",
+    "ethiopian_distributor_found": "Yes: Inchcape BYD Ethiopia (byd.com.et) & Gezat Electric (ev.gezat.et)",
+    "local_supplier_coverage": "High (Sunny Spare Parts, Armana Trading, Ethio EV Spare)",
+    "parts_availability_evidence": "High (172 verified OEM catalogue parts from CQS, local availability claims)",
+    "evidence_quality": "High (Distributor verified + dedicated dealer models + comprehensive OEM catalogue)",
+    "selection_status": "SELECTED",
+    "justification": "Highest city-car market visibility in Addis Ababa (506 listings), dedicated official distributor presence (Inchcape BYD Ethiopia), active supplier stocking, and 172 verified OEM part numbers across mechanical, electrical, and body panels."
+  },
+  {
+    "vehicle_model": "Toyota bZ4X",
+    "manufacturer": "Toyota",
+    "market_listings_count": "6 listings across surveyed online portals (EthioDrive, Adey Market, Quralew)",
+    "unique_listings_count": 6,
+    "distinct_sellers_count": "MOENCO official showroom, EthioDrive, and independent brokers",
+    "ethiopian_distributor_found": "Yes: MOENCO (The Motor and Engineering Co of Ethiopia) - Official Exclusive Toyota Distributor since 1968",
+    "local_supplier_coverage": "High (MOENCO Parts Counter, Sunny Spare Parts, Armana Motors)",
+    "parts_availability_evidence": "High (Complete Toyota Global EPC parts diagrams, EUR pricing, local MOENCO authorized support)",
+    "evidence_quality": "High (Selected via authorized distributor evidence + Toyota Global EPC schematics)",
+    "selection_status": "SELECTED",
+    "justification": "Selected via premier distributor backing: backed by Ethiopia's leading automotive distributor (MOENCO since 1968), institutional fleet trust, active spare-parts counter, and comprehensive OEM electronic parts catalog with 231 verified part numbers."
+  },
+  {
+    "vehicle_model": "Volkswagen ID.4 / ID.6",
+    "manufacturer": "Volkswagen",
+    "market_listings_count": "668 listings across surveyed portals (316 ID.4 Crozz + 232 ID.4 + 120 ID.6)",
+    "unique_listings_count": 640,
+    "distinct_sellers_count": "14+ dealerships (EthioDrive, Adey verified dealers, AfroMekina)",
+    "ethiopian_distributor_found": "No official VW factory distributor; extensive grey-import & local dealer networks",
+    "local_supplier_coverage": "High (Ethio EV Spare, Sunny Spare Parts, Adey Parts Market - 33 parts listings)",
+    "parts_availability_evidence": "High (Verified Volkswagen MEB platform OEM part numbers, NHTSA safety failure records)",
+    "evidence_quality": "High (Highest volume electric crossover fleet, verified MEB parts numbers, 610 NHTSA complaints)",
+    "selection_status": "SELECTED",
+    "justification": "Pioneer electric SUV in Ethiopia with substantial fleet size (668 listings), 33 dedicated spare parts advertisements on Adey Market, explicit local stocking by Ethio EV Spare and Sunny Spare Parts, verified OEM MEB catalogue records, and rich safety failure benchmarks."
+  },
+  {
+    "vehicle_model": "BYD Yuan Up",
+    "manufacturer": "BYD",
+    "market_listings_count": "577 listings on Adey Market & Quralew",
+    "unique_listings_count": 550,
+    "distinct_sellers_count": "25+ sellers and dealerships",
+    "ethiopian_distributor_found": "Yes: Inchcape BYD Ethiopia (byd.com.et)",
+    "local_supplier_coverage": "High (Ethio EV Spare, Armana, Adey parts marketplace)",
+    "parts_availability_evidence": "Medium (Brand-new 2024+ release; aftermarket and public parts catalogue less detailed than Seagull)",
+    "evidence_quality": "Medium-High (High vehicle visibility, but public parts catalogues still consolidating)",
+    "selection_status": "NOT_SELECTED",
+    "justification": "Although having high vehicle marketplace visibility (577 listings), BYD Seagull was prioritized for the primary BYD slot due to superior parts catalogue traceability (172 verified OEM numbers from CQS) and established local maintenance history."
+  },
+  {
+    "vehicle_model": "Changan Benben E-Star",
+    "manufacturer": "Changan",
+    "market_listings_count": "278 listings on Adey Market & CarGebeya",
+    "unique_listings_count": 270,
+    "distinct_sellers_count": "8 dealerships (AfroMekina, local sellers)",
+    "ethiopian_distributor_found": "No authorized factory distributor portal identified in Ethiopia",
+    "local_supplier_coverage": "Low-Medium (Armana Motors lists Changan brand, but no dedicated parts catalogue)",
+    "parts_availability_evidence": "Low (No public structured OEM part-number database accessible online)",
+    "evidence_quality": "Low-Medium (Smallest marketplace listing count among candidates; limited technical catalog access)",
+    "selection_status": "NOT_SELECTED",
+    "justification": "Lowest marketplace visibility among budget EVs (278 listings), lack of an authorized Ethiopian distributor portal, and absence of accessible structured OEM parts catalogues for fitment verification."
+  }
+]

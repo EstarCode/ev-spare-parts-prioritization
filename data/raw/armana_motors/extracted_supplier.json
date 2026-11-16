@@ -1,0 +1,23 @@
+[
+  {
+    "supplier_id": "SUP-ARMANA-01",
+    "supplier_name": "Armana Motors / Armana Trading",
+    "website": "https://armanatrading.com.et/",
+    "supplier_type": "Automotive Spare Parts Importer & Distributor",
+    "country": "Ethiopia",
+    "city": "Addis Ababa",
+    "public_business_address": "Addis Ababa, Ethiopia",
+    "public_business_phone": "Showroom Desk / Telegram @armanamotors",
+    "public_business_email": "contact@armanatrading.com.et",
+    "supported_vehicle_brands": "BYD, Toyota (bZ4X), Changan, Suzuki, Radar Geely",
+    "supported_models": "BYD series, Toyota bZ4X, Changan Benben / EV series",
+    "parts_categories": "Original Spare Parts, Body parts, Suspension, Lighting, Maintenance",
+    "original_parts_claim": "Importer and distributor of original auto spare parts dedicated to deliver high-quality vehicle parts",
+    "inventory_information_available": "No (In-person showroom & social media channel @armanamotors)",
+    "pricing_information_available": "No public pricing on web portal",
+    "inquiry_method": "In-person visit to Addis Ababa showroom / Social media @armanamotors",
+    "source_url": "https://armanatrading.com.et/",
+    "collection_date": "2026-11",
+    "verification_status": "CONFIRMED_LOCAL_SUPPLIER"
+  }
+]

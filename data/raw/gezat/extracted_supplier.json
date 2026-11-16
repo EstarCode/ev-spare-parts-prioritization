@@ -1,0 +1,23 @@
+[
+  {
+    "supplier_id": "SUP-GEZAT-01",
+    "supplier_name": "Gezat Electric",
+    "website": "https://ev.gezat.et/",
+    "supplier_type": "EV Importer, Distributor & Charging Infrastructure Operator",
+    "country": "Ethiopia",
+    "city": "Addis Ababa",
+    "public_business_address": "Addis Ababa, Ethiopia",
+    "public_business_phone": "Website Consultation (ev.gezat.et)",
+    "public_business_email": "info@gezat.et",
+    "supported_vehicle_brands": "BYD, Gezat Network",
+    "supported_models": "BYD Seagull, BYD Song Plus, BYD Yuan Up",
+    "parts_categories": "EV Charging Stations, Aftersales Maintenance, Warranty Support",
+    "original_parts_claim": "Full aftersales support and vehicle charging infrastructure",
+    "inventory_information_available": "No",
+    "pricing_information_available": "Inquiry based",
+    "inquiry_method": "Website Consultation & Showroom Booking",
+    "source_url": "https://ev.gezat.et/",
+    "collection_date": "2026-11",
+    "verification_status": "CONFIRMED_LOCAL_OPERATOR"
+  }
+]

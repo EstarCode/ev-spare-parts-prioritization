@@ -1,0 +1,26 @@
+[
+  {
+    "listing_id": "GEZAT-CAR-0001",
+    "source_id": "gezat",
+    "source_name": "Gezat Electric",
+    "source_url": "https://ev.gezat.et/byd/seagull",
+    "manufacturer": "BYD",
+    "vehicle_model": "Seagull",
+    "model_year": "2024",
+    "trim_or_variant": "Standard / Flying Edition",
+    "asking_price": "",
+    "currency": "ETB",
+    "seller_name": "Gezat Electric Ethiopia",
+    "seller_location": "Addis Ababa, Ethiopia",
+    "vehicle_condition": "New",
+    "listing_date": "2026-11",
+    "collection_timestamp": "2026-11-16T13:37:40.585928+00:00",
+    "listing_description": "BYD Seagull Electric Hatchback featured for Ethiopian market with local charging compatibility and warranty.",
+    "original_listing_text": "BYD · Hatchback · Explore model · Reference colours. Local availability to be confirmed.",
+    "image_reference": "https://bydcarsphilippines.com/vehicles/byd-seagull",
+    "original_platform": "Gezat Electric Portal",
+    "extraction_method": "HTML_PARSING",
+    "duplicate_candidate": "NO",
+    "verification_status": "COLLECTED_FROM_SOURCE"
+  }
+]

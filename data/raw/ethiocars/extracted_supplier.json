@@ -1,0 +1,23 @@
+[
+  {
+    "supplier_id": "SUP-ETHIOCARS-01",
+    "supplier_name": "ethioCars Portal",
+    "website": "https://ethiocars.com/",
+    "supplier_type": "Automotive Classifieds Directory",
+    "country": "Ethiopia",
+    "city": "Addis Ababa",
+    "public_business_address": "Addis Ababa, Ethiopia",
+    "public_business_phone": "Online Portal",
+    "public_business_email": "info@ethiocars.com",
+    "supported_vehicle_brands": "Toyota, Suzuki, Hyundai, Commercial Vehicles",
+    "supported_models": "General ICE and hybrid vehicles",
+    "parts_categories": "Automotive classified listings",
+    "original_parts_claim": "Automotive marketplace in Ethiopia connecting car buyers and sellers.",
+    "inventory_information_available": "No dedicated EV parts catalog",
+    "pricing_information_available": "Listings based",
+    "inquiry_method": "Direct seller phone on advertisement",
+    "source_url": "https://ethiocars.com/",
+    "collection_date": "2026-11",
+    "verification_status": "CONFIRMED_DIRECTORY_PORTAL"
+  }
+]

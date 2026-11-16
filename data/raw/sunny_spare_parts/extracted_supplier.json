@@ -1,0 +1,23 @@
+[
+  {
+    "supplier_id": "SUP-SUNNY-01",
+    "supplier_name": "Sunny Spare Parts",
+    "website": "https://sunnyspareparts.com/",
+    "supplier_type": "Independent EV Spare Parts Retailer & Importer",
+    "country": "Ethiopia",
+    "city": "Addis Ababa",
+    "public_business_address": "Addis Ababa, Ethiopia",
+    "public_business_phone": "Public Inquiry Portal",
+    "public_business_email": "info@sunnyspareparts.com",
+    "supported_vehicle_brands": "BYD, Toyota, Volkswagen",
+    "supported_models": "BYD Seagull, Toyota bZ4X, Volkswagen ID.6",
+    "parts_categories": "Brake pads, Brake discs, Suspension, Body panels, Electrical components",
+    "original_parts_claim": "Specializing in BYD, Toyota, and Volkswagen EV components with expert knowledge",
+    "inventory_information_available": "No (Inquiry-based quotation model)",
+    "pricing_information_available": "No public price list",
+    "inquiry_method": "Contact Us form / Showroom Inquiry",
+    "source_url": "https://sunnyspareparts.com/",
+    "collection_date": "2026-11",
+    "verification_status": "CONFIRMED_LOCAL_SUPPLIER"
+  }
+]

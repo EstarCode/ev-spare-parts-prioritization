@@ -1,0 +1,23 @@
+[
+  {
+    "supplier_id": "SUP-EVSPAREAPP-01",
+    "supplier_name": "Ethio EV Spare Mobile Platform",
+    "website": "https://play.google.com/store/apps/details?id=com.evspare.buyer",
+    "supplier_type": "Mobile Application & EV Parts Ordering Portal",
+    "country": "Ethiopia",
+    "city": "Addis Ababa",
+    "public_business_address": "Bole Medhanialem, EV Logistics Hub, Addis Ababa",
+    "public_business_phone": "In-app support",
+    "public_business_email": "developer@evspare.et",
+    "supported_vehicle_brands": "BYD, Volkswagen ID, Tesla, Geely, Zeekr",
+    "supported_models": "BYD Song, BYD Yuan, VW ID.4, VW ID.6",
+    "parts_categories": "Regenerative Brakes, Suspension, Cooling & Thermal, Body Panels, Lighting, Diagnostic Tools",
+    "original_parts_claim": "Scan vehicle VINs, access AI diagnostics, save vehicles in My Garage, real-time push tracking.",
+    "inventory_information_available": "Requires mobile installation / User Account",
+    "pricing_information_available": "Visible to registered app users in ETB",
+    "inquiry_method": "Android App download and login",
+    "source_url": "https://play.google.com/store/apps/details?id=com.evspare.buyer",
+    "collection_date": "2026-11",
+    "verification_status": "CONFIRMED_MOBILE_APPLICATION"
+  }
+]
