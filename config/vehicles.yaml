@@ -1,0 +1,71 @@
+candidate_vehicles:
+  - id: byd_seagull
+    manufacturer: BYD
+    model: Seagull
+    aliases:
+      - Seagull
+      - BYD Seagull
+      - Dolphin Mini
+      - 海鸥
+    body_type: 5-door hatchback
+    powertrain: BEV
+    years: [2023, 2024, 2025]
+
+  - id: byd_yuan_up
+    manufacturer: BYD
+    model: Yuan Up
+    aliases:
+      - Yuan Up
+      - BYD Yuan Up
+      - Yuan UP
+      - 元UP
+    body_type: Subcompact crossover SUV
+    powertrain: BEV
+    years: [2024, 2025]
+
+  - id: changan_benben_estar
+    manufacturer: Changan
+    model: Benben E-Star
+    aliases:
+      - Benben E-Star
+      - Benni E-Star
+      - Changan Benben
+      - Changan Benni
+      - Benben
+      - 奔奔E-Star
+    body_type: 5-door hatchback
+    powertrain: BEV
+    years: [2020, 2021, 2022, 2023, 2024]
+
+  - id: toyota_bz4x
+    manufacturer: Toyota
+    model: bZ4X
+    aliases:
+      - bZ4X
+      - Toyota bZ4X
+      - BZ4X
+      - bz4x
+    body_type: Compact crossover SUV
+    powertrain: BEV
+    years: [2022, 2023, 2024, 2025]
+
+  - id: vw_id4_id6
+    manufacturer: Volkswagen
+    model: ID.4 / ID.6
+    aliases:
+      - ID.4
+      - ID.6
+      - ID4
+      - ID6
+      - Volkswagen ID.4
+      - Volkswagen ID.6
+      - VW ID.4
+      - VW ID.6
+      - ID.4 Crozz
+      - ID.4 X
+      - ID.6 Crozz
+      - ID.6 X
+    body_type: Compact / Mid-size crossover SUV
+    powertrain: BEV
+    years: [2021, 2022, 2023, 2024, 2025]
+

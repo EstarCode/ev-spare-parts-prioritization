@@ -1,0 +1,127 @@
+part_categories:
+  - id: brake_pads
+    name: Brake pads
+    system: Braking
+    aliases:
+      - brake pad
+      - brake pads
+      - front brake pads
+      - rear brake pads
+      - brake shoe
+      - disc brake pads
+    description: Friction material assemblies pressed against brake discs to stop vehicle.
+
+  - id: brake_discs
+    name: Brake discs
+    system: Braking
+    aliases:
+      - brake disc
+      - brake discs
+      - brake rotor
+      - brake rotors
+      - front brake disc
+      - rear brake disc
+    description: Circular metal discs attached to wheel hubs against which brake pads clamp.
+
+  - id: cabin_air_filters
+    name: Cabin-air filters
+    system: HVAC
+    aliases:
+      - cabin air filter
+      - cabin filter
+      - ac filter
+      - air conditioning filter
+      - pollen filter
+      - hepa cabin filter
+    description: Filtration unit purifying incoming ventilation air into passenger cabin.
+
+  - id: wiper_blades
+    name: Wiper blades
+    system: Visibility
+    aliases:
+      - wiper blade
+      - wiper blades
+      - windscreen wiper
+      - windshield wiper
+      - rear wiper
+      - wiper refill
+    description: Rubber squeegee assemblies mounted to wiper arms for windshield cleaning.
+
+  - id: headlights
+    name: Headlights
+    system: Lighting
+    aliases:
+      - headlight
+      - headlights
+      - headlamp
+      - headlamps
+      - front lamp
+      - led headlight
+    description: Front lighting assemblies providing forward illumination and daytime running lights.
+
+  - id: tail_lights
+    name: Tail lights
+    system: Lighting
+    aliases:
+      - tail light
+      - tail lights
+      - taillight
+      - taillights
+      - rear light
+      - rear lamp
+      - brake light
+    description: Rear lamp assemblies providing position lighting, brake lights, and turn signals.
+
+  - id: side_mirrors
+    name: Side mirrors
+    system: Body / Visibility
+    aliases:
+      - side mirror
+      - side mirrors
+      - rear view mirror
+      - rearview mirror
+      - wing mirror
+      - door mirror
+      - mirror assembly
+    description: Exterior side-view mirror assemblies with manual/electric adjustment, heating, or cameras.
+
+  - id: bumpers
+    name: Bumpers
+    system: Body
+    aliases:
+      - bumper
+      - bumpers
+      - front bumper
+      - rear bumper
+      - bumper cover
+      - bumper bar
+    description: Front and rear exterior structures designed to absorb minor impacts and house sensors/grilles.
+
+  - id: fenders_body_panels
+    name: Fenders/body panels
+    system: Body
+    aliases:
+      - fender
+      - fenders
+      - wing
+      - quarter panel
+      - body panel
+      - mudguard
+      - door panel
+      - hood
+    description: Outer body panels including front fenders, quarter panels, doors, and hoods.
+
+  - id: shock_absorbers
+    name: Shock absorbers
+    system: Suspension
+    aliases:
+      - shock absorber
+      - shock absorbers
+      - strut
+      - struts
+      - damper
+      - front shock
+      - rear shock
+      - suspension strut
+    description: Hydraulic or pneumatic damping assemblies cushioning road irregularities and stabilizing suspension.
+

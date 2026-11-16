@@ -1,0 +1,155 @@
+sources:
+  - id: adey_market
+    name: Adey Market
+    category: ethiopian_marketplace
+    url: https://adey-market.com/categories/cars?type=cars_electric
+    parts_url: https://adey-market.com/categories/vehicle_parts?type=car_spare_parts_general
+    evidence_type: LOCAL_MARKETPLACE_LISTING
+    country: Ethiopia
+    description: Ethiopian online marketplace with dedicated EV and vehicle spare-parts categories.
+
+  - id: gezat
+    name: Gezat Electric
+    category: ethiopian_distributor_retailer
+    url: https://ev.gezat.et/
+    evidence_type: IDENTIFIED_LOCAL_SUPPLIER
+    country: Ethiopia
+    description: Major Ethiopian EV importer, distributor, and charging/aftersales service provider.
+
+  - id: landin
+    name: Landin BYD Parts
+    category: international_catalogue
+    url: https://www.landinparts.com/byd/
+    evidence_type: INTERNATIONAL_PARTS_CATALOGUE
+    country: China / International
+    description: Specialized international Chinese automotive parts supplier for BYD electric vehicles.
+
+  - id: cqs
+    name: CQS Auto Parts
+    category: international_catalogue
+    url: https://www.cqswautoparts.com/part-numbers-for-byd-seagull-spare-parts
+    evidence_type: INTERNATIONAL_PARTS_CATALOGUE
+    country: China / International
+    description: Technical OEM part-number reference repository for BYD Seagull electric vehicles.
+
+  - id: toyota_catalogue
+    name: Toyota Spare Parts Catalogue
+    category: international_catalogue
+    url: https://www.toyota-spare-parts.com/toyota-cars/BZ4X
+    evidence_type: INTERNATIONAL_PARTS_CATALOGUE
+    country: International
+    description: Online parts catalogue and schematic reference for Toyota bZ4X electric vehicles.
+
+  - id: vw_catalogue
+    name: EXIST UAE Volkswagen Catalogue
+    category: international_catalogue
+    url: https://exist.ae/catalog/cars/volkswagen/id-4
+    evidence_type: INTERNATIONAL_PARTS_CATALOGUE
+    country: UAE / International
+    description: Online OEM catalogue and parts reference for Volkswagen ID.4 and ID series.
+
+  - id: nhtsa
+    name: NHTSA Datasets and APIs
+    category: government_safety
+    url: https://www.nhtsa.gov/nhtsa-datasets-and-apis
+    api_url: https://api.nhtsa.gov
+    evidence_type: GOVERNMENT_DATASET
+    country: USA
+    description: Official United States Department of Transportation vehicle safety complaints and recalls database.
+
+  - id: sunny_spare_parts
+    name: Sunny Spare Parts
+    category: ethiopian_supplier
+    url: https://sunnyspareparts.com/
+    evidence_type: IDENTIFIED_LOCAL_SUPPLIER
+    country: Ethiopia
+    description: Ethiopian automotive spare-parts supplier claiming coverage for BYD, Toyota, and VW electric vehicles.
+
+  - id: armana_motors
+    name: Armana Motors / Armana Trading
+    category: ethiopian_supplier
+    url: https://armanatrading.com.et/
+    evidence_type: IDENTIFIED_LOCAL_SUPPLIER
+    country: Ethiopia
+    description: Addis Ababa-based automotive trading and spare-parts supply company for Chinese and Japanese vehicles.
+
+  - id: ethio_ev_spare
+    name: Ethio EV Spare
+    category: ethiopian_supplier
+    url: https://auto-s-sooty.vercel.app/
+    evidence_type: IDENTIFIED_LOCAL_SUPPLIER
+    country: Ethiopia
+    description: Ethiopian dedicated EV spare-parts web catalog hosted on Vercel showcasing inventory and ETB pricing.
+
+  - id: moenco
+    name: MOENCO Ethiopia
+    category: authorized_distributor
+    url: https://www.moencoethiopia.com/parts/
+    evidence_type: AUTHORIZED_DISTRIBUTOR
+    country: Ethiopia
+    description: Official authorized distributor of Toyota vehicles and genuine parts in Ethiopia since 1968.
+
+  - id: byd_ethiopia
+    name: BYD Ethiopia
+    category: authorized_distributor
+    url: https://www.byd.com.et/
+    evidence_type: AUTHORIZED_DISTRIBUTOR
+    country: Ethiopia
+    description: Authorized BYD vehicle distributor and aftersales service portal in Ethiopia.
+
+  - id: sparehub
+    name: SpareHub Ethiopia
+    category: ethiopian_marketplace
+    url: https://sparehubethiopia.com/
+    evidence_type: LOCAL_MARKETPLACE_LISTING
+    country: Ethiopia
+    description: Online parts quotation request and seller aggregation platform in Ethiopia.
+
+  - id: ev_spare_app
+    name: EV Spare Buyer App (Google Play)
+    category: ethiopian_application
+    url: https://play.google.com/store/apps/details?id=com.evspare.buyer
+    evidence_type: IDENTIFIED_LOCAL_SUPPLIER
+    country: Ethiopia
+    description: Google Play Store application page for Ethiopian EV spare parts buyer portal.
+
+  - id: ethiocars
+    name: ethioCars
+    category: ethiopian_marketplace
+    url: https://ethiocars.com/
+    evidence_type: LOCAL_MARKETPLACE_LISTING
+    country: Ethiopia
+    description: Online Ethiopian vehicle marketplace for new and used cars including electric vehicles.
+
+  - id: ethiodrive
+    name: EthioDrive
+    category: ethiopian_marketplace
+    url: https://ethiodrive.com/
+    evidence_type: LOCAL_MARKETPLACE_LISTING
+    country: Ethiopia
+    description: Ethiopian automotive listing platform and car dealer directory.
+
+  - id: cargebeya
+    name: CarGebeya
+    category: ethiopian_marketplace
+    url: https://www.cargebeya.com/
+    evidence_type: LOCAL_MARKETPLACE_LISTING
+    country: Ethiopia
+    description: Prominent Ethiopian vehicle advertising portal with EV listings and dealer profiles.
+
+  - id: quralew
+    name: Quralew
+    category: ethiopian_marketplace
+    url: https://quralew.et/en/listings?category=cars
+    evidence_type: LOCAL_MARKETPLACE_LISTING
+    country: Ethiopia
+    description: Ethiopian general classifieds and automotive marketplace.
+
+  - id: autoline
+    name: Autoline Ethiopia
+    category: supplementary_marketplace
+    url: https://autoline-et.com/
+    evidence_type: LOCAL_MARKETPLACE_LISTING
+    country: Ethiopia
+    description: Automotive portal operating in Ethiopia for commercial vehicles, passenger cars, and spare parts.
+
