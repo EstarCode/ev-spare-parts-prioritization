@@ -114,37 +114,36 @@ $$\text{Priority Score} = 0.30(\text{Demand}) + 0.25(\text{Scarcity}) + 0.20(\te
 
 | Rank | Vehicle Model | Component Category | Verified OEM Part # | Priority Score | ECC Duty | Recommended Freight | Strategic Rationale |
 | :---: | :--- | :--- | :--- | :---: | :---: | :---: | :--- |
-| **1** | **BYD Seagull** | Brake pads | `14758996-00` | **92.63** | 20% (HS 8708.30) | Air Freight | High urban fleet visibility; rapid friction wear; moderate 20% mechanical duty; compact air-cargo consolidation. |
-| **2** | **Volkswagen ID.4 / ID.6** | Brake pads | `1EA-698-151` | **92.63** | 20% (HS 8708.30) | Air Freight | Heavy 2.2-ton MEB curb weight accelerates friction wear; recurring workshop demand; moderate 20% duty tier. |
-| **3** | **Volkswagen ID.4 / ID.6** | Side mirrors | `11A-857-507` | **92.60** | 25% (HS 7009.10) | Air Freight | Urban corridor collision damage and theft vulnerability; non-deferrable safety part; high willingness-to-pay. |
-| **4** | **Volkswagen ID.4 / ID.6** | Brake discs | `1EA-615-301` | **92.33** | 20% (HS 8708.30) | LCL Sea Freight | Kinetic rotor wear under heavy regenerative/mechanical braking; paired replacement with pads; 20% mechanical duty. |
-| **5** | **Volkswagen ID.4 / ID.6** | Shock absorbers | `1EA-413-031` | **91.88** | 20% (HS 8708.80) | LCL Sea Freight | Damping stress from rough road topography on heavy battery chassis; critical mechanical grounding item. |
+| **1** | **Volkswagen ID.4 / ID.6** | Shock absorbers | `1EA-413-031` | **0.8190** | 20% (HS 8708.80) | LCL Sea Freight | Heavy 2.2-ton curb weight and Addis Ababa rough topography create intense suspension damping stress; non-deferrable repair item. |
+| **2** | **BYD Seagull** | Shock absorbers | `13505643-00` | **0.8040** | 20% (HS 8708.80) | LCL Sea Freight | 480 market listings confirm dominant urban rideshare adoption; severe suspension road-impact wear on small chassis. |
+| **3** | **Volkswagen ID.4 / ID.6** | Brake discs | `1EA-615-301` | **0.7898** | 20% (HS 8708.30) | LCL Sea Freight | Kinetic rotor wear under frequent stop-and-go braking; NHTSA SERVICE BRAKES defect correlation; 20% standard mechanical duty. |
+| **4** | **BYD Seagull** | Brake discs | `13423467-00` | **0.7748** | 20% (HS 8708.30) | LCL Sea Freight | Frequent friction wear from commercial urban commute; paired replacement with pads; OEM verified via Changsha CQS catalogue. |
+| **5** | **Volkswagen ID.4 / ID.6** | Brake pads | `1EA-698-151` | **0.7708** | 20% (HS 8708.30) | Air Express / LCL | Rapid friction wear; AVAILABLE_ON_ORDER local stock status (0.70 scarcity); HIGH evidence confidence (1.0). |
 
 ### 4.3 Strategic Drivers Behind Prioritization
 
-1. **Friction Consumables Lead (Brake Pads & Discs — Scores 92.63 & 92.33):**
-   - EVs weigh 20–30% more than equivalent ICE vehicles due to traction battery mass (e.g., VW ID.4 curb weight exceeds 2.2 metric tons).
-   - In Addis Ababa's steep terrain and congested stop-and-go driving, friction braking is engaged frequently alongside regenerative braking.
-   - Brake components fall under ECC HS Code 8708.30 at the standard mechanical components tariff tier (20% base duty, 54.3% effective total burden), far lower than cosmetic body panels (35% duty, 73.5% total burden) or lighting (30% duty + 10% excise, 82.4% total burden), keeping landed costs and customs friction manageable.
-2. **High-Vulnerability Exterior Trim (Side Mirrors — Score 92.60):**
-   - Side mirrors suffer acute damage rates in narrow urban corridors and are prime targets for opportunistic theft in Addis Ababa.
-   - Operating without mirrors is illegal and hazardous, resulting in immediate vehicle grounding and high owner willingness-to-pay.
-3. **Chassis & Damping Components (Shock Absorbers — Score 91.88):**
-   - Rough road surfaces, speed humps, and cobblestone connectors place severe damping loads on heavy EV chassis.
-   - Failed struts degrade battery pack ground clearance, making strut replacement an essential maintenance priority.
-4. **Deprioritized Categories (Why Other Parts Ranked Lower):**
-   - **Body Panels (Bumpers, Fenders):** Face a steep 35% customs duty, require excessive container volume ($/m^3$), and are frequently repaired locally via bodywork specialists rather than replaced.
+1. **Chassis & Damping Components Lead (Shock Absorbers — Ranks 1 & 2, Scores 0.8190 & 0.8040):**
+   - EVs carry 20–30% higher curb weight than equivalent ICE vehicles due to the traction battery pack (e.g. VW ID.4 exceeds 2.2 metric tons).
+   - In Addis Ababa's demanding road topography (potholes, uneven cobblestones, steep gradients), suspension damping components absorb severe kinetic shocks.
+   - Damaged shocks lower battery ground clearance, posing an unacceptable risk of puncture to high-voltage battery enclosures.
+   - Both vehicles possess confirmed OEM part numbers (`1EA-413-031` and `13505643-00`) and standard 20% ECC mechanical customs duties (HS 8708.80).
+2. **Kinetic Friction Braking Consumables (Brake Discs & Pads — Ranks 3, 4, 5):**
+   - While regenerative braking handles mild deceleration, Addis Ababa's steep elevation drops and congested traffic frequently trigger mechanical foundation friction braking.
+   - Rotors and pads suffer accelerated abrasive kinetic wear on heavy EV chassis.
+   - Falling under HS 8708.30 with 20% customs duty (54.3% effective total fiscal burden), they avoid the punitive 35% duty and 10% excise applicable to cosmetic body and lighting parts.
+3. **Deprioritized Categories (Why Other Parts Ranked Lower):**
+   - **Body Panels (Bumpers, Fenders):** Face a steep 35% customs duty, require excessive container volume ($/m^3$), and are frequently repaired locally via panel beaters rather than imported new.
    - **AC Wallboxes & Portable Chargers:** Almost universally bundled with initial vehicle deliveries, yielding low recurring replacement turnover.
    - **High-Voltage Battery Modules & Inverters:** Require specialized high-voltage cleanrooms, hazardous-cargo freight certifications, and substantial capital outlay unsuited for early-stage aftermarket distributors.
 
 ### 4.4 Sensitivity & Robustness Testing
 
 The ranking was evaluated across four operational scenarios to verify stability:
-- **Baseline Scenario:** Standard MCDA weights (Top 5: Seagull Pads, ID.4 Pads, ID.4 Mirrors, ID.4 Discs, ID.4 Shocks).
-- **Demand-Heavy Scenario (Demand weight = 0.50):** Reinforces friction consumables at Ranks 1 and 2.
-- **Scarcity-Heavy Scenario (Scarcity weight = 0.45):** Elevated priority for side mirrors and lighting components.
-- **Practicality-Heavy Scenario (Practicality weight = 0.35):** Air-freightable consumables (pads, filters, wipers) gain relative rank.
-*Conclusion:* Across all four scenarios, the identified top 5 components remain consistently within the top decile.
+- **Baseline Model:** Standard MCDA weights (Rank 1: VW ID.4 Shock absorbers, Rank 2: BYD Seagull Shock absorbers).
+- **Demand-Heavy Scenario (+10% Demand):** VW ID.4 and BYD Seagull Shock absorbers remain Ranks 1 and 2.
+- **Scarcity-Heavy Scenario (+10% Scarcity):** Suspension and braking components remain top-ranked due to acute local scarcity.
+- **Practicality-Heavy Scenario (+10% Practicality):** Compact brake pads ascend to Rank 3 due to lower volumetric freight overhead.
+*Conclusion:* Across all four scenarios, **Volkswagen ID.4 / ID.6 Shock absorbers remains the invariant #1 priority part**, demonstrating model robustness.
 
 ---
 

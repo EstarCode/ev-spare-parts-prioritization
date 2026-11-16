@@ -1,5 +1,5 @@
 scenario,rank_1,rank_2,rank_3,rank_4,rank_5
-Baseline Model,BYD Seagull - Brake pads,Volkswagen ID.4 / ID.6 - Brake pads,Volkswagen ID.4 / ID.6 - Side mirrors,Volkswagen ID.4 / ID.6 - Brake discs,Volkswagen ID.4 / ID.6 - Shock absorbers
-Demand-Heavy (+10% Demand),BYD Seagull - Brake pads,Volkswagen ID.4 / ID.6 - Brake pads,Volkswagen ID.4 / ID.6 - Brake discs,Volkswagen ID.4 / ID.6 - Shock absorbers,Volkswagen ID.4 / ID.6 - Side mirrors
-Scarcity-Heavy (+10% Scarcity),Volkswagen ID.4 / ID.6 - Side mirrors,Volkswagen ID.4 / ID.6 - Brake discs,Volkswagen ID.4 / ID.6 - Brake pads,BYD Seagull - Brake pads,BYD Seagull - Side mirrors
-Practicality-Heavy (+10% Practicality),BYD Seagull - Brake pads,Volkswagen ID.4 / ID.6 - Brake pads,Toyota bZ4X - Brake pads,Volkswagen ID.4 / ID.6 - Brake discs,Volkswagen ID.4 / ID.6 - Side mirrors
+Baseline Model,Volkswagen ID.4 / ID.6 - Shock absorbers,BYD Seagull - Shock absorbers,Volkswagen ID.4 / ID.6 - Brake discs,BYD Seagull - Brake discs,Volkswagen ID.4 / ID.6 - Brake pads
+Demand-Heavy (+10% Demand),Volkswagen ID.4 / ID.6 - Shock absorbers,BYD Seagull - Shock absorbers,Volkswagen ID.4 / ID.6 - Brake discs,Volkswagen ID.4 / ID.6 - Brake pads,BYD Seagull - Brake discs
+Scarcity-Heavy (+10% Scarcity),Volkswagen ID.4 / ID.6 - Shock absorbers,BYD Seagull - Shock absorbers,Volkswagen ID.4 / ID.6 - Brake discs,BYD Seagull - Brake discs,Toyota bZ4X - Shock absorbers
+Practicality-Heavy (+10% Practicality),Volkswagen ID.4 / ID.6 - Shock absorbers,BYD Seagull - Shock absorbers,Volkswagen ID.4 / ID.6 - Brake pads,Volkswagen ID.4 / ID.6 - Brake discs,BYD Seagull - Brake pads
