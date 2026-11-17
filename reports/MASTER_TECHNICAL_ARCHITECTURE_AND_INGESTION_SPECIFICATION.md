@@ -336,3 +336,4 @@ In the Addis Ababa automotive parts market, 87% of merchants conceal wholesale p
 - **Slide 12:** Evaluated 3 reference GitHub repositories (`3r1nC`, `fapi-dev`, `vivasvana1`), documenting reused, adapted, and rejected components.
 - **Slide 13:** Prepared 7-minute presentation script and examiner Q&A defense playbook.
 - **Slides 14 & 15:** Linked physical wear parts to 644 NHTSA failure complaints and ECC HS 8708 customs tariff schedules.
+
