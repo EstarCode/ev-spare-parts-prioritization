@@ -7,3 +7,4 @@
   "error_details": "Autoline Ethiopia returned HTTP 429 Too Many Requests on automated requests. Anti-bot protection active.",
   "recovery_action_taken": "Logged limitation and documented error in extraction_errors.csv"
 }
+
