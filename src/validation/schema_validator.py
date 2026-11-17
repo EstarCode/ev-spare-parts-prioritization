@@ -101,3 +101,7 @@ def validate_record_schema(record: Dict[str, Any], schema_name: str) -> List[str
     required_fields = SCHEMAS[schema_name]
     missing = [f for f in required_fields if f not in record]
     return missing
+
+# Alias for backward and external compatibility
+validate_schema = validate_record_schema
+

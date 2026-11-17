@@ -12,7 +12,7 @@ def clean_and_normalize_vehicle_listings(raw_listings: List[Dict[str, Any]]) -> 
         c = dict(item)
         
         mfg = str(c.get("manufacturer", "")).strip()
-        model = str(c.get("vehicle_model", "")).strip()
+        model = str(c.get("vehicle_model") or c.get("model", "")).strip()
         desc = f"{c.get('listing_description', '')} {c.get('original_listing_text', '')}"
         
         if "seagull" in model.lower() or "seagull" in desc.lower():
@@ -36,9 +36,10 @@ def clean_and_normalize_vehicle_listings(raw_listings: List[Dict[str, Any]]) -> 
         c["manufacturer"] = mfg
         c["vehicle_model"] = model
         
-        raw_p = str(c.get("asking_price", "")).replace(",", "").strip()
+        raw_price_str = str(c.get("asking_price", "")).replace(",", "").strip()
+        digits_match = re.search(r"(\d+(?:\.\d+)?)", raw_price_str)
         try:
-            val = float(raw_p)
+            val = float(digits_match.group(1)) if digits_match else float(raw_price_str)
             c["asking_price"] = str(int(val)) if 500_000 <= val <= 40_000_000 else ""
         except (ValueError, TypeError):
             c["asking_price"] = ""

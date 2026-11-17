@@ -31,3 +31,7 @@ def parse_flexible_date(date_str: str) -> str:
         except ValueError:
             continue
     return clean_str
+
+# Alias for external compatibility
+parse_date = parse_flexible_date
+
