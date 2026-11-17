@@ -412,3 +412,4 @@ Bumpers / Panels (HS 8708.10)   [===========================] 82.4% Landed Burde
 ### Slides 14 & 15: Component Engineering Reference Telemetry
 - **Slide Question:** *How are the physical wear parts connected to empirical telemetry and import logistics?*
 - **Technical Answer:** Kinetic wear components (Brake pads, discs, shock absorbers) correlate directly with 644 NHTSA failure complaints, occupy lower ECC customs duty tiers (20% mechanical duty vs. 35% on body panels), and utilize maritime container freight to minimize landed costs.
+
