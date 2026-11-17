@@ -201,7 +201,7 @@ def calculate_prioritization_scores(
             ev_count += 1
         c5 = round(ev_count / 7.0, 4)
 
-        # --- Composite MCDA Score ---
+        # --- Composite MCDA Score (Slide 9 Baseline Benchmark) ---
         composite = round(
             c1 * weights["demand"] +
             c2 * weights["scarcity"] +
@@ -210,6 +210,14 @@ def calculate_prioritization_scores(
             c5 * weights["confidence"],
             4
         )
+
+        # --- Custom Data-Driven Opportunity vs Difficulty Formulation (Slide 9 Compliant) ---
+        # Opportunity: Joint interaction of empirical market demand and local stockout scarcity
+        opportunity = round(c1 * c2, 4)
+        # Landed Difficulty: Tariff landed tax burden + fitment uncertainty + baseline logistics friction
+        difficulty = round((1.0 - c4) + (1.0 - c3) + 0.20, 4)
+        # Empirical Priority Index: Opportunity divided by Difficulty, modulated by primary evidence confidence
+        ovd_index = round((opportunity / difficulty) * c5, 4)
 
         oem_ref = oem_raw if oem_ok == 1.0 else "INQUIRY_REQUIRED"
 
@@ -223,7 +231,10 @@ def calculate_prioritization_scores(
             "compatibility_score": c3,
             "practicality_score": c4,
             "confidence_score": c5,
-            "composite_priority_score": composite
+            "composite_priority_score": composite,
+            "opportunity_score": opportunity,
+            "difficulty_score": difficulty,
+            "ovd_priority_index": ovd_index
         })
 
     # Rank combinations
@@ -233,6 +244,7 @@ def calculate_prioritization_scores(
         .reset_index(drop=True)
     )
     df_scored["priority_rank"] = range(1, len(df_scored) + 1)
+    df_scored["ovd_rank"] = df_scored["ovd_priority_index"].rank(ascending=False, method="min").astype(int)
     df_scored.to_csv(cleaned_dir / "prioritized_parts_ranking.csv", index=False, encoding="utf-8")
 
     df_top_5 = df_scored.head(5).copy()
@@ -305,3 +317,16 @@ def run_sensitivity_analysis(df_scored: pd.DataFrame) -> pd.DataFrame:
         })
 
     return pd.DataFrame(results)
+
+
+def calculate_opportunity_difficulty_scores(df_scored: pd.DataFrame) -> Tuple[pd.DataFrame, pd.DataFrame]:
+    """
+    Rank components along the empirical Opportunity-vs-Difficulty frontier (Slide 9 compliance).
+    Opportunity = Demand * Scarcity
+    Difficulty  = (1 - Practicality) + (1 - Compatibility) + 0.20
+    Index       = (Opportunity / Difficulty) * Confidence
+    """
+    df_ovd = df_scored.sort_values("ovd_priority_index", ascending=False).reset_index(drop=True)
+    df_ovd["ovd_rank"] = range(1, len(df_ovd) + 1)
+    df_ovd_top5 = df_ovd.head(5).copy()
+    return df_ovd, df_ovd_top5
