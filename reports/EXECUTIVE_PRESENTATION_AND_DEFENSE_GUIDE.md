@@ -191,3 +191,4 @@ flowchart TD
 | **12** | **GitHub References & Code Reuse** | Analyzed 3 assigned repositories (`3r1nC`, `fapi-dev`, `vivasvana1`); tabulated reused concepts, adaptations, and rejected components. | Notebook Section 13 |
 | **13** | **Presentation Defense** | Prepared timed 7-minute script, anticipated Q&A defense answers, and operational procurement playbooks. | This Defense Playbook |
 | **14 & 15**| **Parts Reference & Telemetry** | Linked physical wear components (Brakes, Wipers, Lighting, Body, Suspension) to NHTSA defect telemetry and ECC HS 8708 tariff codes. | [`data/processed/import_logistics_tariffs.csv`](../data/processed/import_logistics_tariffs.csv), [`data/cleaned/top_5_recommended_parts.csv`](../data/cleaned/top_5_recommended_parts.csv) |
+
