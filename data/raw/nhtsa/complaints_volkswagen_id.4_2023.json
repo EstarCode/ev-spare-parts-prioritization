@@ -1,7 +1,51 @@
 {
-  "count": 473,
+  "count": 475,
   "message": "Results returned successfully",
   "results": [
+    {
+      "odiNumber": 11778084,
+      "manufacturer": "Volkswagen Group of America, Inc.",
+      "crash": false,
+      "fire": false,
+      "numberOfInjuries": 0,
+      "numberOfDeaths": 0,
+      "dateOfIncident": "10/21/2026",
+      "dateComplaintFiled": "11/15/2026",
+      "vin": "1V2BMPE85PC",
+      "components": "ELECTRICAL SYSTEM,UNKNOWN OR OTHER",
+      "summary": "My 2023 Volkswagen ID.4 Standard (VIN: [XXX], ~58,000 miles) is affected by Safety Recall 93EX (NHTSA Campaign 26V630000) due to a high-voltage battery cell fire hazard. Under this recall, Volkswagen imposed a mandatory 80% maximum charging limit on my vehicle via software while a permanent remedy remains unavailable with no release timeline. Combined with seasonal cold-weather EV range loss, this mandatory 20% reduction in usable battery capacity severely restricts my vehicle's driving range and impairs my daily commute. I contacted Volkswagen Customer Care (Case [XXX]) regarding the safety risk and loss of usability, and VW Corporate confirmed in writing that no permanent remedy is available yet and declined temporary transportation assistance. INFORMATION REDACTED PURSUANT TO THE FREEDOM OF INFORMATION ACT (FOIA), 5 U.S.C. 552(B)(6)",
+      "products": [
+        {
+          "type": "Vehicle",
+          "productYear": "2023",
+          "productMake": "VOLKSWAGEN",
+          "productModel": "ID.4",
+          "manufacturer": "Volkswagen Group of America, Inc."
+        }
+      ]
+    },
+    {
+      "odiNumber": 11777684,
+      "manufacturer": "Volkswagen Group of America, Inc.",
+      "crash": false,
+      "fire": false,
+      "numberOfInjuries": 0,
+      "numberOfDeaths": 0,
+      "dateOfIncident": "11/10/2026",
+      "dateComplaintFiled": "11/13/2026",
+      "vin": "1V2GNPE88PC",
+      "components": "ELECTRICAL SYSTEM,EXTERIOR LIGHTING,ENGINE",
+      "summary": "I own a 2023 Volkswagen ID.4 AWD Pro S with multiple ongoing safety defects.  1. High-Voltage Battery Recalls  My vehicle is subject to two high-voltage battery recalls involving potential overheating and fire risks. Neither has been resolved. One recall has an available remedy, but Volkswagen has not completed the repair despite two service requests.  I brought the vehicle to VW on November 10, 2026, for recall repairs, but the dealership was unable to resolve either battery recall. Both safety concerns remain outstanding.  2. Instrument Cluster and Infotainment Failure  While driving, both screens intermittently go completely black, eliminating my ability to see my speedometer or essential driving information. When they return, colors and graphics are sometimes inverted, distorted, or illegible. This continues despite the software update for NHTSA Recall 24V-344.  3. Interior Lighting Failure  The rear passenger overhead light intermittently turns on while driving and will not turn off using its control button. It continues flickering, creating a significant distraction, particularly at night.  Ongoing Safety Concerns  All defects remain unresolved despite multiple service requests and dealership visits. I have contacted Volkswagen and requested a buyback, but have not received an adequate resolution or safe transportation alternative.  I am requesting NHTSA investigate these ongoing safety defects and Volkswagen's failure to adequately address the outstanding recalls and repair issues.  These unresolved defects make me concerned for my safety and the safety of others. I do not believe this vehicle is safe to operate in its current condition.",
+      "products": [
+        {
+          "type": "Vehicle",
+          "productYear": "2023",
+          "productMake": "VOLKSWAGEN",
+          "productModel": "ID.4",
+          "manufacturer": "Volkswagen Group of America, Inc."
+        }
+      ]
+    },
     {
       "odiNumber": 11777536,
       "manufacturer": "Volkswagen Group of America, Inc.",

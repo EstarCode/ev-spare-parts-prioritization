@@ -14,18 +14,18 @@ priority_rank,vehicle_model,part_category,oem_reference,demand_score,scarcity_sc
 13,Volkswagen ID.4 / ID.6,Fenders/body panels,11A-821-105,0.5586,1.0,1.0,0.2176,0.5714,0.7074
 14,BYD Seagull,Brake pads,14758996-00,0.6824,0.5,1.0,0.687,0.7143,0.7042
 15,BYD Seagull,Side mirrors,13568569-00,0.3581,1.0,1.0,0.5306,0.5714,0.6942
-16,BYD Seagull,Bumpers,14780070-00,0.4797,1.0,1.0,0.2176,0.5714,0.6837
-17,Volkswagen ID.4 / ID.6,Headlights,11A-941-035,0.5883,1.0,1.0,0.0,0.5714,0.6836
+16,Volkswagen ID.4 / ID.6,Headlights,11A-941-035,0.5943,1.0,1.0,0.0,0.5714,0.6854
+17,BYD Seagull,Bumpers,14780070-00,0.4797,1.0,1.0,0.2176,0.5714,0.6837
 18,BYD Seagull,Fenders/body panels,14120451-00,0.4752,1.0,1.0,0.2176,0.5714,0.6823
-19,Volkswagen ID.4 / ID.6,Tail lights,11A-945-095,0.5748,1.0,1.0,0.0,0.5714,0.6796
+19,Volkswagen ID.4 / ID.6,Tail lights,11A-945-095,0.5808,1.0,1.0,0.0,0.5714,0.6814
 20,Toyota bZ4X,Cabin-air filters,90467-05172,0.0121,1.0,1.0,1.0,0.5714,0.6608
-21,BYD Seagull,Headlights,14129134-00,0.505,1.0,1.0,0.0,0.5714,0.6586
-22,Toyota bZ4X,Wiper blades,85110-42310,0.2265,1.0,1.0,0.5306,0.5714,0.6547
-23,BYD Seagull,Tail lights,13608000-00,0.4914,1.0,1.0,0.0,0.5714,0.6546
+21,BYD Seagull,Headlights,14129134-00,0.511,1.0,1.0,0.0,0.5714,0.6604
+22,BYD Seagull,Tail lights,13608000-00,0.4975,1.0,1.0,0.0,0.5714,0.6564
+23,Toyota bZ4X,Wiper blades,85110-42310,0.2265,1.0,1.0,0.5306,0.5714,0.6547
 24,Toyota bZ4X,Brake pads,04465-78020,0.4356,0.5,1.0,0.687,0.7143,0.6302
 25,Toyota bZ4X,Side mirrors,8791A-42J70,0.1112,1.0,1.0,0.5306,0.5714,0.6201
 26,Toyota bZ4X,Bumpers,52021-42240,0.2329,1.0,1.0,0.2176,0.5714,0.6097
 27,Toyota bZ4X,Fenders/body panels,53301-42160,0.2284,1.0,1.0,0.2176,0.5714,0.6083
-28,Toyota bZ4X,Headlights,8110A-42790,0.2581,1.0,1.0,0.0,0.5714,0.5846
-29,Toyota bZ4X,Tail lights,8158A-42170,0.2446,1.0,1.0,0.0,0.5714,0.5805
+28,Toyota bZ4X,Headlights,8110A-42790,0.2641,1.0,1.0,0.0,0.5714,0.5864
+29,Toyota bZ4X,Tail lights,8158A-42170,0.2506,1.0,1.0,0.0,0.5714,0.5823
 30,BYD Seagull,Cabin-air filters,INQUIRY_REQUIRED,0.259,1.0,0.0,1.0,0.0,0.4777
