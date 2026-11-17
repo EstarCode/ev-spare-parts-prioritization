@@ -25,7 +25,8 @@ class EthioEvSpareCollector(BaseCollector):
                 
         suppliers = load_json(self.raw_dir / "extracted_supplier.json") or []
         availability = load_json(self.raw_dir / "extracted_availability.json") or []
-        quotations = load_json(self.raw_dir / "extracted_quotations.json") or []
+        quotations_file = self.raw_dir / "extracted_quotations.json"
+        quotations = load_json(quotations_file) if quotations_file.exists() else []
         return {
             "suppliers": suppliers,
             "availability": availability,

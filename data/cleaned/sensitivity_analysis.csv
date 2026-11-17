@@ -1,5 +1,5 @@
 scenario,rank_1,rank_2,rank_3,rank_4,rank_5
-Baseline Model,Volkswagen ID.4 / ID.6 - Shock absorbers,Volkswagen ID.4 / ID.6 - Brake discs,BYD Seagull - Shock absorbers,BYD Seagull - Brake discs,Toyota bZ4X - Shock absorbers
-Demand-Heavy (+10% Demand),Volkswagen ID.4 / ID.6 - Shock absorbers,Volkswagen ID.4 / ID.6 - Brake discs,BYD Seagull - Shock absorbers,BYD Seagull - Brake discs,Volkswagen ID.4 / ID.6 - Brake pads
-Scarcity-Heavy (+10% Scarcity),Volkswagen ID.4 / ID.6 - Shock absorbers,Volkswagen ID.4 / ID.6 - Brake discs,BYD Seagull - Shock absorbers,BYD Seagull - Brake discs,Volkswagen ID.4 / ID.6 - Cabin-air filters
-Practicality-Heavy (+10% Practicality),Volkswagen ID.4 / ID.6 - Shock absorbers,Volkswagen ID.4 / ID.6 - Brake discs,BYD Seagull - Shock absorbers,BYD Seagull - Brake discs,Volkswagen ID.4 / ID.6 - Cabin-air filters
+Baseline Model,Volkswagen ID.4 / ID.6 - Shock absorbers,BYD Seagull - Shock absorbers,BYD Seagull - Brake discs,Toyota bZ4X - Shock absorbers,Volkswagen ID.4 / ID.6 - Cabin-air filters
+Demand-Heavy (+10% Demand),Volkswagen ID.4 / ID.6 - Shock absorbers,BYD Seagull - Shock absorbers,BYD Seagull - Brake discs,Volkswagen ID.4 / ID.6 - Brake discs,Volkswagen ID.4 / ID.6 - Brake pads
+Scarcity-Heavy (+10% Scarcity),Volkswagen ID.4 / ID.6 - Shock absorbers,BYD Seagull - Shock absorbers,BYD Seagull - Brake discs,Volkswagen ID.4 / ID.6 - Cabin-air filters,Toyota bZ4X - Shock absorbers
+Practicality-Heavy (+10% Practicality),Volkswagen ID.4 / ID.6 - Shock absorbers,BYD Seagull - Shock absorbers,BYD Seagull - Brake discs,Volkswagen ID.4 / ID.6 - Cabin-air filters,Toyota bZ4X - Shock absorbers
