@@ -12,13 +12,29 @@ import numpy as np
 import matplotlib.pyplot as plt
 from IPython.display import display, HTML
 
+def find_project_root():
+    """
+    Robustly locates project root by walking up from cwd, __file__, or known workspace.
+    """
+    candidates = [
+        Path(__file__).resolve().parent.parent.parent if "__file__" in globals() else None,
+        Path(".").resolve(),
+        Path("..").resolve(),
+        Path("../..").resolve(),
+        Path(r"c:\Users\hp\Desktop\EV\ev-spare-parts-prioritization")
+    ]
+    for c in candidates:
+        if c is not None and (c / "main.py").exists() and (c / "data").exists():
+            return c.resolve()
+    return Path(r"c:\Users\hp\Desktop\EV\ev-spare-parts-prioritization")
+
 def load_notebook_state():
     """
     Returns a complete, fully populated dictionary of all DataFrames, paths,
     and functions required by any cell in the master notebook.
     Takes <0.05 seconds to load from pre-existing Silver and Gold CSVs.
     """
-    root = Path(".").resolve() if (Path(".") / "notebooks").exists() else Path("..").resolve()
+    root = find_project_root()
     if str(root) not in sys.path:
         sys.path.insert(0, str(root))
         
@@ -84,7 +100,11 @@ def load_notebook_state():
     if (proc_dir / "vehicle_part_coverage.csv").exists():
         df_coverage = pd.read_csv(proc_dir / "vehicle_part_coverage.csv")
     else:
-        coverage_matrix = generate_30_combination_coverage_matrix(project_root=root)
+        coverage_matrix = generate_30_combination_coverage_matrix(
+            raw_parts_dicts,
+            df_availability.to_dict(orient="records") if not df_availability.empty else [],
+            df_quotations.to_dict(orient="records") if not df_quotations.empty else []
+        )
         df_coverage = pd.DataFrame(coverage_matrix)
     coverage_matrix = df_coverage.to_dict(orient="records")
     
