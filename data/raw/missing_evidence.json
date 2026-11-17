@@ -41,8 +41,8 @@
   },
   {
     "item_id": "MISS-005",
-    "vehicle_model": "BYD / VW / Tesla",
-    "part_category": "Complete Catalog",
+    "vehicle_model": "BYD Seagull / VW ID.4 (Candidate Fleet)",
+    "part_category": "Candidate Fleet Replacement Catalog",
     "data_dimension": "Full Product Inventory & User Prices",
     "expected_source": "Ethio EV Spare Android App (com.evspare.buyer)",
     "reason_missing": "Data requires account access",
@@ -71,8 +71,8 @@
   },
   {
     "item_id": "MISS-008",
-    "vehicle_model": "Commercial & Passenger EV",
-    "part_category": "Vehicle Listings & Spare Parts",
+    "vehicle_model": "Candidate EV Fleet (Seagull / ID.4 / bZ4X)",
+    "part_category": "Candidate EV Classified Listings",
     "data_dimension": "Automotive Marketplace Ads",
     "expected_source": "Autoline Ethiopia (autoline-et.com)",
     "reason_missing": "Source is inaccessible",
