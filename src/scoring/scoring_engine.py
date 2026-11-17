@@ -57,7 +57,6 @@ MCDA Main Weights (AHP-Derived, Saaty 1-9 Scale, CR = 0.019 < 0.10):
 from typing import Dict, Tuple
 from pathlib import Path
 import pandas as pd
-import numpy as np
 
 
 # NHTSA defect component mapping to federal safety complaint taxonomy

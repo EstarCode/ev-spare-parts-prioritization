@@ -18,7 +18,7 @@
     "fitment_description": "Factory OEM fitment for Volkswagen ID.4 / ID.6 MEB electric vehicle platform.",
     "compatibility_reference": "Volkswagen MEB Platform",
     "source_url": "https://exist.ae/catalog/cars/volkswagen/id-4/parts/1EA698151",
-    "collection_timestamp": "2026-11-17T20:34:10.908761+00:00",
+    "collection_timestamp": "2026-11-17T20:58:45.456135+00:00",
     "original_text": "VW ID.4 Part: 1EA-698-151 - FRONT DISC BRAKE PAD SET (CERAMIC LOW DUST)",
     "extraction_method": "CATALOGUE_EPC_PARSING",
     "verification_status": "OEM_CATALOGUE_VERIFIED"
@@ -42,7 +42,7 @@
     "fitment_description": "Factory OEM fitment for Volkswagen ID.4 / ID.6 MEB electric vehicle platform.",
     "compatibility_reference": "Volkswagen MEB Platform",
     "source_url": "https://exist.ae/catalog/cars/volkswagen/id-4/parts/1EA698451",
-    "collection_timestamp": "2026-11-17T20:34:10.908775+00:00",
+    "collection_timestamp": "2026-11-17T20:58:45.456146+00:00",
     "original_text": "VW ID.4 Part: 1EA-698-451 - REAR BRAKE DRUM/SHOE LINING KIT",
     "extraction_method": "CATALOGUE_EPC_PARSING",
     "verification_status": "OEM_CATALOGUE_VERIFIED"
@@ -66,7 +66,7 @@
     "fitment_description": "Factory OEM fitment for Volkswagen ID.4 / ID.6 MEB electric vehicle platform.",
     "compatibility_reference": "Volkswagen MEB Platform",
     "source_url": "https://exist.ae/catalog/cars/volkswagen/id-4/parts/1EA615301",
-    "collection_timestamp": "2026-11-17T20:34:10.908780+00:00",
+    "collection_timestamp": "2026-11-17T20:58:45.456151+00:00",
     "original_text": "VW ID.4 Part: 1EA-615-301 - FRONT BRAKE DISC ROTOR (330x30mm VENTILATED)",
     "extraction_method": "CATALOGUE_EPC_PARSING",
     "verification_status": "OEM_CATALOGUE_VERIFIED"
@@ -90,7 +90,7 @@
     "fitment_description": "Factory OEM fitment for Volkswagen ID.4 / ID.6 MEB electric vehicle platform.",
     "compatibility_reference": "Volkswagen MEB Platform",
     "source_url": "https://exist.ae/catalog/cars/volkswagen/id-4/parts/1EA819669",
-    "collection_timestamp": "2026-11-17T20:34:10.908797+00:00",
+    "collection_timestamp": "2026-11-17T20:58:45.456155+00:00",
     "original_text": "VW ID.4 Part: 1EA-819-669 - CABIN AIR FILTER (ALLERGEN & ACTIVATED CARBON)",
     "extraction_method": "CATALOGUE_EPC_PARSING",
     "verification_status": "OEM_CATALOGUE_VERIFIED"
@@ -114,7 +114,7 @@
     "fitment_description": "Factory OEM fitment for Volkswagen ID.4 / ID.6 MEB electric vehicle platform.",
     "compatibility_reference": "Volkswagen MEB Platform",
     "source_url": "https://exist.ae/catalog/cars/volkswagen/id-4/parts/11A955427",
-    "collection_timestamp": "2026-11-17T20:34:10.908801+00:00",
+    "collection_timestamp": "2026-11-17T20:58:45.456159+00:00",
     "original_text": "VW ID.4 Part: 11A-955-427 - AEROTWIN FRONT WIPER BLADE SET (700mm/450mm)",
     "extraction_method": "CATALOGUE_EPC_PARSING",
     "verification_status": "OEM_CATALOGUE_VERIFIED"
@@ -138,7 +138,7 @@
     "fitment_description": "Factory OEM fitment for Volkswagen ID.4 / ID.6 MEB electric vehicle platform.",
     "compatibility_reference": "Volkswagen MEB Platform",
     "source_url": "https://exist.ae/catalog/cars/volkswagen/id-4/parts/11A941035",
-    "collection_timestamp": "2026-11-17T20:34:10.908804+00:00",
+    "collection_timestamp": "2026-11-17T20:58:45.456162+00:00",
     "original_text": "VW ID.4 Part: 11A-941-035 - IQ.LIGHT LED MATRIX HEADLIGHT ASSEMBLY, LEFT",
     "extraction_method": "CATALOGUE_EPC_PARSING",
     "verification_status": "OEM_CATALOGUE_VERIFIED"
@@ -162,7 +162,7 @@
     "fitment_description": "Factory OEM fitment for Volkswagen ID.4 / ID.6 MEB electric vehicle platform.",
     "compatibility_reference": "Volkswagen MEB Platform",
     "source_url": "https://exist.ae/catalog/cars/volkswagen/id-4/parts/11A941036",
-    "collection_timestamp": "2026-11-17T20:34:10.908808+00:00",
+    "collection_timestamp": "2026-11-17T20:58:45.456165+00:00",
     "original_text": "VW ID.4 Part: 11A-941-036 - IQ.LIGHT LED MATRIX HEADLIGHT ASSEMBLY, RIGHT",
     "extraction_method": "CATALOGUE_EPC_PARSING",
     "verification_status": "OEM_CATALOGUE_VERIFIED"
@@ -186,7 +186,7 @@
     "fitment_description": "Factory OEM fitment for Volkswagen ID.4 / ID.6 MEB electric vehicle platform.",
     "compatibility_reference": "Volkswagen MEB Platform",
     "source_url": "https://exist.ae/catalog/cars/volkswagen/id-4/parts/11A945095",
-    "collection_timestamp": "2026-11-17T20:34:10.908811+00:00",
+    "collection_timestamp": "2026-11-17T20:58:45.456168+00:00",
     "original_text": "VW ID.4 Part: 11A-945-095 - 3D ANIMATED LED REAR COMBINATION LIGHT, LEFT",
     "extraction_method": "CATALOGUE_EPC_PARSING",
     "verification_status": "OEM_CATALOGUE_VERIFIED"
@@ -210,7 +210,7 @@
     "fitment_description": "Factory OEM fitment for Volkswagen ID.4 / ID.6 MEB electric vehicle platform.",
     "compatibility_reference": "Volkswagen MEB Platform",
     "source_url": "https://exist.ae/catalog/cars/volkswagen/id-4/parts/11A945096",
-    "collection_timestamp": "2026-11-17T20:34:10.908814+00:00",
+    "collection_timestamp": "2026-11-17T20:58:45.456171+00:00",
     "original_text": "VW ID.4 Part: 11A-945-096 - 3D ANIMATED LED REAR COMBINATION LIGHT, RIGHT",
     "extraction_method": "CATALOGUE_EPC_PARSING",
     "verification_status": "OEM_CATALOGUE_VERIFIED"
@@ -234,7 +234,7 @@
     "fitment_description": "Factory OEM fitment for Volkswagen ID.4 / ID.6 MEB electric vehicle platform.",
     "compatibility_reference": "Volkswagen MEB Platform",
     "source_url": "https://exist.ae/catalog/cars/volkswagen/id-4/parts/11A857507",
-    "collection_timestamp": "2026-11-17T20:34:10.908817+00:00",
+    "collection_timestamp": "2026-11-17T20:58:45.456174+00:00",
     "original_text": "VW ID.4 Part: 11A-857-507 - EXTERIOR DOOR MIRROR HOUSING & MOTOR, LEFT (POWER/HEATED)",
     "extraction_method": "CATALOGUE_EPC_PARSING",
     "verification_status": "OEM_CATALOGUE_VERIFIED"
@@ -258,7 +258,7 @@
     "fitment_description": "Factory OEM fitment for Volkswagen ID.4 / ID.6 MEB electric vehicle platform.",
     "compatibility_reference": "Volkswagen MEB Platform",
     "source_url": "https://exist.ae/catalog/cars/volkswagen/id-4/parts/11A857508",
-    "collection_timestamp": "2026-11-17T20:34:10.908821+00:00",
+    "collection_timestamp": "2026-11-17T20:58:45.456178+00:00",
     "original_text": "VW ID.4 Part: 11A-857-508 - EXTERIOR DOOR MIRROR HOUSING & MOTOR, RIGHT (POWER/HEATED)",
     "extraction_method": "CATALOGUE_EPC_PARSING",
     "verification_status": "OEM_CATALOGUE_VERIFIED"
@@ -282,7 +282,7 @@
     "fitment_description": "Factory OEM fitment for Volkswagen ID.4 / ID.6 MEB electric vehicle platform.",
     "compatibility_reference": "Volkswagen MEB Platform",
     "source_url": "https://exist.ae/catalog/cars/volkswagen/id-4/parts/11A807217",
-    "collection_timestamp": "2026-11-17T20:34:10.908825+00:00",
+    "collection_timestamp": "2026-11-17T20:58:45.456182+00:00",
     "original_text": "VW ID.4 Part: 11A-807-217 - FRONT BUMPER COVER (PRIMED, WITH SENSOR CUTOUTS)",
     "extraction_method": "CATALOGUE_EPC_PARSING",
     "verification_status": "OEM_CATALOGUE_VERIFIED"
@@ -306,7 +306,7 @@
     "fitment_description": "Factory OEM fitment for Volkswagen ID.4 / ID.6 MEB electric vehicle platform.",
     "compatibility_reference": "Volkswagen MEB Platform",
     "source_url": "https://exist.ae/catalog/cars/volkswagen/id-4/parts/11A807417",
-    "collection_timestamp": "2026-11-17T20:34:10.908829+00:00",
+    "collection_timestamp": "2026-11-17T20:58:45.456185+00:00",
     "original_text": "VW ID.4 Part: 11A-807-417 - REAR BUMPER COVER (PRIMED)",
     "extraction_method": "CATALOGUE_EPC_PARSING",
     "verification_status": "OEM_CATALOGUE_VERIFIED"
@@ -330,7 +330,7 @@
     "fitment_description": "Factory OEM fitment for Volkswagen ID.4 / ID.6 MEB electric vehicle platform.",
     "compatibility_reference": "Volkswagen MEB Platform",
     "source_url": "https://exist.ae/catalog/cars/volkswagen/id-4/parts/11A821105",
-    "collection_timestamp": "2026-11-17T20:34:10.908833+00:00",
+    "collection_timestamp": "2026-11-17T20:58:45.456188+00:00",
     "original_text": "VW ID.4 Part: 11A-821-105 - FRONT WING / FENDER PANEL, LEFT",
     "extraction_method": "CATALOGUE_EPC_PARSING",
     "verification_status": "OEM_CATALOGUE_VERIFIED"
@@ -354,7 +354,7 @@
     "fitment_description": "Factory OEM fitment for Volkswagen ID.4 / ID.6 MEB electric vehicle platform.",
     "compatibility_reference": "Volkswagen MEB Platform",
     "source_url": "https://exist.ae/catalog/cars/volkswagen/id-4/parts/11A821106",
-    "collection_timestamp": "2026-11-17T20:34:10.908840+00:00",
+    "collection_timestamp": "2026-11-17T20:58:45.456191+00:00",
     "original_text": "VW ID.4 Part: 11A-821-106 - FRONT WING / FENDER PANEL, RIGHT",
     "extraction_method": "CATALOGUE_EPC_PARSING",
     "verification_status": "OEM_CATALOGUE_VERIFIED"
@@ -378,7 +378,7 @@
     "fitment_description": "Factory OEM fitment for Volkswagen ID.4 / ID.6 MEB electric vehicle platform.",
     "compatibility_reference": "Volkswagen MEB Platform",
     "source_url": "https://exist.ae/catalog/cars/volkswagen/id-4/parts/1EA413031",
-    "collection_timestamp": "2026-11-17T20:34:10.908843+00:00",
+    "collection_timestamp": "2026-11-17T20:58:45.456194+00:00",
     "original_text": "VW ID.4 Part: 1EA-413-031 - FRONT SUSPENSION STRUT / SHOCK ABSORBER",
     "extraction_method": "CATALOGUE_EPC_PARSING",
     "verification_status": "OEM_CATALOGUE_VERIFIED"
@@ -402,7 +402,7 @@
     "fitment_description": "Factory OEM fitment for Volkswagen ID.4 / ID.6 MEB electric vehicle platform.",
     "compatibility_reference": "Volkswagen MEB Platform",
     "source_url": "https://exist.ae/catalog/cars/volkswagen/id-4/parts/1EA513029",
-    "collection_timestamp": "2026-11-17T20:34:10.908846+00:00",
+    "collection_timestamp": "2026-11-17T20:58:45.456197+00:00",
     "original_text": "VW ID.4 Part: 1EA-513-029 - REAR SHOCK ABSORBER (GAS PRESSURIZED)",
     "extraction_method": "CATALOGUE_EPC_PARSING",
     "verification_status": "OEM_CATALOGUE_VERIFIED"

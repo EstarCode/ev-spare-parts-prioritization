@@ -58,12 +58,3 @@ def save_csv(records: List[Dict[str, Any]], file_path: Union[str, Path], fieldna
         if records:
             writer.writerows(records)
 
-# Load list of record dictionaries from an RFC 4180 compliant CSV file.
-def load_csv(file_path: Union[str, Path]) -> List[Dict[str, Any]]:
-    p = Path(file_path)
-    if not p.exists():
-        return []
-    with open(p, "r", newline="", encoding="utf-8") as f:
-        reader = csv.DictReader(f)
-        return list(reader)
-
