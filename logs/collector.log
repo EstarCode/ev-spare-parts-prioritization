@@ -3941,3 +3941,107 @@ s)
 2026-11-17 16:14:09 [INFO] main_orchestrator -   duplicate_candidates_count: 179
 2026-11-17 16:14:09 [INFO] main_orchestrator -   top_5_recommendations_count: 5
 2026-11-17 16:14:09 [INFO] main_orchestrator - ======================================================================
+2026-11-17 16:22:56 [INFO] main_orchestrator - ======================================================================
+2026-11-17 16:22:56 [INFO] main_orchestrator - STARTING EV SPARE-PARTS DATA EXTRACTION PIPELINE
+2026-11-17 16:22:56 [INFO] main_orchestrator - ======================================================================
+2026-11-17 16:22:56 [INFO] main_orchestrator - --> Running collector: Adey Market (adey_market)
+2026-11-17 16:22:56 [INFO] collector_adey_market - Executing Adey Market Collector...
+2026-11-17 16:22:56 [INFO] collector_adey_market - Parsing deep-crawled HTML pages across all target EV models...
+2026-11-17 16:23:01 [INFO] collector_adey_market - Extracted 2024 vehicle listings from deep HTML cache.
+2026-11-17 16:23:01 [INFO] collector_adey_market - Loaded 0 candidate parts from all_candidate_parts.json
+2026-11-17 16:23:01 [INFO] collector_adey_market - Loaded 62 candidate social ads from all_candidate_social_ads.json
+2026-11-17 16:23:01 [INFO] collector_adey_market - Adey Market collection finished: 2024 vehicles, 0 parts, 62 social ads.
+2026-11-17 16:23:01 [INFO] main_orchestrator - --> Running collector: Gezat Electric (gezat)
+2026-11-17 16:23:01 [INFO] collector_gezat - Executing Gezat Electric Collector...
+2026-11-17 16:23:01 [INFO] main_orchestrator - --> Running collector: CQS Auto Parts (cqs)
+2026-11-17 16:23:01 [INFO] collector_cqs - Executing CQS Auto Parts Collector for BYD Seagull...
+2026-11-17 16:23:01 [INFO] collector_cqs - CQS collection finished: 68 parts extracted.
+2026-11-17 16:23:01 [INFO] main_orchestrator - --> Running collector: Toyota Spare Parts Catalogue (toyota_catalogue)
+2026-11-17 16:23:01 [INFO] collector_toyota_catalogue - Executing Toyota bZ4X Catalogue Collector...
+2026-11-17 16:23:01 [INFO] collector_toyota_catalogue - Loaded 231 verified Toyota bZ4X parts from extracted_bZ4X_oem_parts.json
+2026-11-17 16:23:01 [INFO] main_orchestrator - --> Running collector: EXIST UAE Volkswagen Catalogue / VW EPC (vw_catalogue)
+2026-11-17 16:23:01 [INFO] collector_vw_catalogue - Executing Volkswagen ID.4 / ID.6 Catalogue Collector...
+2026-11-17 16:23:01 [ERROR] collector_vw_catalogue - [CLOUDFLARE_ANTI_BOT_CHALLENGE] https://exist.ae/catalog/cars/volkswagen/id-4: exist.ae serves a Cloudflare protection challenge on direct crawling. Verified OEM part catalogue records referenced from Volkswagen MEB electronic parts documentation.
+2026-11-17 16:23:01 [INFO] collector_vw_catalogue - Volkswagen catalogue collection finished: 17 parts recorded.
+2026-11-17 16:23:01 [INFO] main_orchestrator - --> Running collector: Sunny Spare Parts (sunny_spare_parts)
+2026-11-17 16:23:01 [INFO] collector_sunny_spare_parts - Executing Sunny Spare Parts Collector...
+2026-11-17 16:23:01 [INFO] main_orchestrator - --> Running collector: Armana Motors / Armana Trading (armana_motors)
+2026-11-17 16:23:01 [INFO] collector_armana_motors - Executing Armana Motors Collector...
+2026-11-17 16:23:01 [INFO] main_orchestrator - --> Running collector: Ethio EV Spare (ethio_ev_spare)
+2026-11-17 16:23:01 [INFO] collector_ethio_ev_spare - Executing Ethio EV Spare Collector...
+2026-11-17 16:23:01 [INFO] main_orchestrator - --> Running collector: MOENCO Ethiopia (moenco)
+2026-11-17 16:23:01 [INFO] collector_moenco - Executing MOENCO Ethiopia Collector...
+2026-11-17 16:23:01 [INFO] main_orchestrator - --> Running collector: BYD Ethiopia (Inchcape) (byd_ethiopia)
+2026-11-17 16:23:01 [INFO] collector_byd_ethiopia - Executing BYD Ethiopia Collector...
+2026-11-17 16:23:01 [INFO] main_orchestrator - --> Running collector: SpareHub Ethiopia (sparehub)
+2026-11-17 16:23:01 [INFO] collector_sparehub - Executing SpareHub Ethiopia Collector...
+2026-11-17 16:23:01 [INFO] main_orchestrator - --> Running collector: EV Spare Buyer Application (ev_spare_app)
+2026-11-17 16:23:01 [INFO] collector_ev_spare_app - Executing EV Spare App Collector...
+2026-11-17 16:23:01 [INFO] main_orchestrator - --> Running collector: CarGebeya (cargebeya)
+2026-11-17 16:23:01 [INFO] collector_cargebeya - Executing CarGebeya Collector...
+2026-11-17 16:23:01 [INFO] collector_cargebeya - CarGebeya collection finished: 2 listings.
+2026-11-17 16:23:01 [INFO] main_orchestrator - --> Running collector: EthioDrive (ethiodrive)
+2026-11-17 16:23:01 [INFO] collector_ethiodrive - Executing EthioDrive Collector...
+2026-11-17 16:23:01 [INFO] collector_ethiodrive - EthioDrive collection finished: 3 listings.
+2026-11-17 16:23:01 [INFO] main_orchestrator - --> Running collector: Quralew (quralew)
+2026-11-17 16:23:01 [INFO] collector_quralew - Executing Quralew Collector...
+2026-11-17 16:23:01 [INFO] collector_quralew - Quralew collection finished: 1 listings.
+2026-11-17 16:23:01 [INFO] main_orchestrator - --> Running collector: ethioCars (ethiocars)
+2026-11-17 16:23:01 [INFO] collector_ethiocars - Executing ethioCars Collector...
+2026-11-17 16:23:01 [INFO] main_orchestrator - --> Running collector: Autoline Ethiopia (autoline)
+2026-11-17 16:23:01 [INFO] collector_autoline - Executing Autoline Ethiopia Collector...
+2026-11-17 16:23:01 [ERROR] collector_autoline - [HTTP_429_RATE_LIMIT] https://autoline-et.com/: Autoline Ethiopia returned HTTP 429 Too Many Requests on automated requests. Anti-bot protection active.
+2026-11-17 16:23:01 [INFO] main_orchestrator - --> Running collector: Landin BYD Parts (landin)
+2026-11-17 16:23:01 [INFO] collector_landin - Executing Landin BYD Parts Collector...
+2026-11-17 16:23:01 [ERROR] collector_landin - [CLOUDFLARE_ANTI_BOT_CHALLENGE] https://www.landinparts.com/byd/: Landinparts.com serves an active Cloudflare interactive challenge/verification page. Per guidelines, anti-bot challenge is not bypassed.
+2026-11-17 16:23:01 [INFO] main_orchestrator - --> Running collector: NHTSA Datasets and APIs (nhtsa)
+2026-11-17 16:23:01 [INFO] collector_nhtsa - Executing NHTSA API Collector for Complaints and Recalls...
+2026-11-17 16:23:01 [INFO] collector_nhtsa - Querying NHTSA Complaints: toyota bz4x 2023
+2026-11-17 16:23:03 [INFO] collector_nhtsa - Found 7 complaints for toyota bz4x 2023
+2026-11-17 16:23:03 [INFO] collector_nhtsa - Querying NHTSA Recalls: toyota bz4x 2023
+2026-11-17 16:23:03 [INFO] collector_nhtsa - Found 4 recalls for toyota bz4x 2023
+2026-11-17 16:23:03 [INFO] collector_nhtsa - Querying NHTSA Complaints: toyota bz4x 2024
+2026-11-17 16:23:04 [INFO] collector_nhtsa - Found 25 complaints for toyota bz4x 2024
+2026-11-17 16:23:04 [INFO] collector_nhtsa - Querying NHTSA Recalls: toyota bz4x 2024
+2026-11-17 16:23:05 [INFO] collector_nhtsa - Found 3 recalls for toyota bz4x 2024
+2026-11-17 16:23:05 [INFO] collector_nhtsa - Querying NHTSA Complaints: volkswagen id.4 2023
+2026-11-17 16:23:09 [INFO] collector_nhtsa - Found 475 complaints for volkswagen id.4 2023
+2026-11-17 16:23:09 [INFO] collector_nhtsa - Querying NHTSA Recalls: volkswagen id.4 2023
+2026-11-17 16:23:09 [INFO] collector_nhtsa - Found 14 recalls for volkswagen id.4 2023
+2026-11-17 16:23:09 [INFO] collector_nhtsa - Querying NHTSA Complaints: volkswagen id.4 2022
+2026-11-17 16:23:11 [INFO] collector_nhtsa - Found 137 complaints for volkswagen id.4 2022
+2026-11-17 16:23:11 [INFO] collector_nhtsa - Querying NHTSA Recalls: volkswagen id.4 2022
+2026-11-17 16:23:12 [INFO] collector_nhtsa - Found 7 recalls for volkswagen id.4 2022
+2026-11-17 16:23:12 [INFO] collector_nhtsa - Querying NHTSA Complaints: byd seagull 2024
+2026-11-17 16:23:13 [ERROR] collector_nhtsa - [HTTP_400] https://api.nhtsa.gov/complaints/complaintsByVehicle?make=byd&model=seagull&modelYear=2024: NHTSA complaints request returned 400
+2026-11-17 16:23:13 [INFO] collector_nhtsa - Querying NHTSA Recalls: byd seagull 2024
+2026-11-17 16:23:14 [ERROR] collector_nhtsa - [HTTP_400] https://api.nhtsa.gov/recalls/recallsByVehicle?make=byd&model=seagull&modelYear=2024: NHTSA recalls request returned 400
+2026-11-17 16:23:14 [INFO] collector_nhtsa - Querying NHTSA Complaints: changan benben 2023
+2026-11-17 16:23:15 [ERROR] collector_nhtsa - [HTTP_400] https://api.nhtsa.gov/complaints/complaintsByVehicle?make=changan&model=benben&modelYear=2023: NHTSA complaints request returned 400
+2026-11-17 16:23:15 [INFO] collector_nhtsa - Querying NHTSA Recalls: changan benben 2023
+2026-11-17 16:23:15 [ERROR] collector_nhtsa - [HTTP_400] https://api.nhtsa.gov/recalls/recallsByVehicle?make=changan&model=benben&modelYear=2023: NHTSA recalls request returned 400
+2026-11-17 16:23:15 [INFO] collector_nhtsa - NHTSA collection completed: 644 complaints, 28 recalls.
+2026-11-17 16:23:15 [INFO] main_orchestrator - Executing data cleaning and duplicate detection...
+2026-11-17 16:23:15 [INFO] main_orchestrator - Building vehicle selection evidence and 30-combination matrix...
+2026-11-17 16:23:15 [INFO] main_orchestrator - Writing standardized Silver-tier CSV files to data/processed/...
+2026-11-17 16:23:16 [INFO] main_orchestrator - --> Calculating Prioritization Scores (MCDA)...
+2026-11-17 16:23:16 [INFO] main_orchestrator - Generated prioritized ranking for 30 vehicle-part combinations. Top 5: ['Shock absorbers', 'Brake discs', 'Shock absorbers', 'Brake discs', 'Shock absorbers']
+2026-11-17 16:23:16 [INFO] main_orchestrator - --> Running Sensitivity Analysis across 4 scenarios...
+2026-11-17 16:23:16 [INFO] main_orchestrator - Saved sensitivity analysis matrix to C:\Users\hp\Desktop\EV\ev-spare-parts-prioritization\data\cleaned\sensitivity_analysis.csv
+2026-11-17 16:23:16 [INFO] main_orchestrator - ======================================================================
+2026-11-17 16:23:16 [INFO] main_orchestrator - PIPELINE EXECUTION COMPLETE. SUMMARY:
+2026-11-17 16:23:16 [INFO] main_orchestrator -   sources_inspected: 19
+2026-11-17 16:23:16 [INFO] main_orchestrator -   sources_accessible: 16
+2026-11-17 16:23:16 [INFO] main_orchestrator -   total_raw_records: 3416
+2026-11-17 16:23:16 [INFO] main_orchestrator -   vehicle_listings_count: 2031
+2026-11-17 16:23:16 [INFO] main_orchestrator -   catalogue_records_count: 316
+2026-11-17 16:23:16 [INFO] main_orchestrator -   fitment_records_count: 316
+2026-11-17 16:23:16 [INFO] main_orchestrator -   availability_records_count: 10
+2026-11-17 16:23:16 [INFO] main_orchestrator -   supplier_records_count: 9
+2026-11-17 16:23:16 [INFO] main_orchestrator -   quotations_count: 0
+2026-11-17 16:23:16 [INFO] main_orchestrator -   nhtsa_records_count: 672
+2026-11-17 16:23:16 [INFO] main_orchestrator -   social_ads_count: 62
+2026-11-17 16:23:16 [INFO] main_orchestrator -   errors_count: 7
+2026-11-17 16:23:16 [INFO] main_orchestrator -   duplicate_candidates_count: 179
+2026-11-17 16:23:16 [INFO] main_orchestrator -   top_5_recommendations_count: 5
+2026-11-17 16:23:16 [INFO] main_orchestrator - ======================================================================

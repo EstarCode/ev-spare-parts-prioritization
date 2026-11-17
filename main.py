@@ -140,7 +140,7 @@ def run_pipeline() -> dict:
                 "source_type": col.evidence_type,
                 "country": "Ethiopia" if "ethiopia" in col.source_id or col.source_id in ["adey_market", "gezat", "sunny_spare_parts", "armana_motors", "ethio_ev_spare", "moenco", "byd_ethiopia", "sparehub", "ev_spare_app", "ethiocars", "ethiodrive", "cargebeya", "quralew", "autoline"] else "International",
                 "source_owner_or_publisher": col.source_name,
-                "vehicle_model": "Multi-vehicle" if "catalogue" not in col.source_id else ("BYD Seagull" if col.source_id in ["cqs", "landin"] else ("Toyota bZ4X" if col.source_id == "toyota_catalogue" else "VW ID.4")),
+                "vehicle_model": "Candidate EV Fleet (5 Models)" if "catalogue" not in col.source_id else ("BYD Seagull" if col.source_id in ["cqs", "landin"] else ("Toyota bZ4X" if col.source_id == "toyota_catalogue" else "Volkswagen ID.4 / ID.6")),
                 "part_category": "Assigned 10 Categories / Complete Fleet",
                 "collection_timestamp": get_utc_now_iso(),
                 "extraction_method": "MODULAR_PYTHON_EXTRACTOR",
