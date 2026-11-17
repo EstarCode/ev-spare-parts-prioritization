@@ -237,14 +237,15 @@ def calculate_prioritization_scores(
             "ovd_priority_index": ovd_index
         })
 
-    # Rank combinations
+    # Rank combinations primarily by Custom Empirical Opportunity-vs-Difficulty Frontier (Slide 11 Primary Formulation)
     df_scored = (
         pd.DataFrame(scored_rows)
-        .sort_values("composite_priority_score", ascending=False)
+        .sort_values("ovd_priority_index", ascending=False)
         .reset_index(drop=True)
     )
     df_scored["priority_rank"] = range(1, len(df_scored) + 1)
-    df_scored["ovd_rank"] = df_scored["ovd_priority_index"].rank(ascending=False, method="min").astype(int)
+    df_scored["ahp_linear_rank"] = df_scored["composite_priority_score"].rank(ascending=False, method="min").astype(int)
+    df_scored["ovd_rank"] = df_scored["priority_rank"]
     df_scored.to_csv(cleaned_dir / "prioritized_parts_ranking.csv", index=False, encoding="utf-8")
 
     df_top_5 = df_scored.head(5).copy()
