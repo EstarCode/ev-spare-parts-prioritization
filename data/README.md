@@ -35,28 +35,28 @@ data/
 │   └── vw_catalogue/           # 3 files (MEB electronic parts documentation)
 │
 ├── processed/      # SILVER TIER: Standardized, RFC 4180 Compliant Cleaned CSVs
-│   ├── duplicate_candidates.csv         # 179 cross-posted duplicate vehicle ads
+│   ├── duplicate_candidates.csv         # 32 cross-posted duplicate vehicle ads
 │   ├── extraction_errors.csv            # 7 logged extraction & access limitations
-│   ├── fitment_evidence.csv             # 189 fitment records categorized by taxonomy
+│   ├── fitment_evidence.csv             # 316 fitment records categorized by taxonomy
 │   ├── import_logistics_tariffs.csv     # 10 categories with ECC HS duty schedules
 │   ├── local_availability_evidence.csv  # 14 showroom & supplier inventory records
 │   ├── missing_evidence.csv             # 8 empirical data gaps with mitigations
-│   ├── nhtsa_complaints.csv             # 642 US DOT/NHTSA safety complaints
+│   ├── nhtsa_complaints.csv             # 644 US DOT/NHTSA safety complaints
 │   ├── nhtsa_recalls.csv                # 28 US DOT/NHTSA safety recall notices
-│   ├── parts_catalogue_records.csv      # 420 verified OEM catalog records
-│   ├── social_media_advertisements.csv  # 105 social/Telegram marketplace ads
+│   ├── parts_catalogue_records.csv      # 316 verified OEM catalog records
+│   ├── social_media_advertisements.csv  # 62 social/Telegram marketplace ads
 │   ├── source_accessibility.csv         # 19 audited HTTP endpoints & latency
 │   ├── source_log.csv                   # 19 source provenance & extraction logs
 │   ├── supplier_directory.csv           # 9 verified Addis Ababa suppliers/dealers
-│   ├── supplier_quotations.csv          # 4 verified commercial ETB price quotes
-│   ├── vehicle_market_listings.csv      # 2,062 standardized vehicle ads
+│   ├── supplier_quotations.csv          # 0 formal rows (wholesale price opacity)
+│   ├── vehicle_market_listings.csv      # 1,287 standardized vehicle ads
 │   ├── vehicle_part_coverage.csv        # 30-combination matrix (3 x 10)
 │   ├── vehicle_selection_evidence.csv   # 5 candidate vehicles evaluation evidence
 │   └── vehicle_statistical_summary.csv  # Price & condition statistical benchmarks
 │
 └── cleaned/        # GOLD TIER: Final Analytical & Decision-Ready Datasets
-    ├── cleaned_parts_records.csv        # 420 normalized OEM catalogue records
-    ├── cleaned_vehicle_listings.csv     # 2,062 normalized listings with dup flags
+    ├── cleaned_parts_records.csv        # 316 normalized OEM catalogue records
+    ├── cleaned_vehicle_listings.csv     # 1,287 normalized listings with dup flags
     ├── prioritized_parts_ranking.csv    # 30 combinations ranked via MCDA model
     ├── sensitivity_analysis.csv         # Model stability matrix across 4 scenarios
     └── top_5_recommended_parts.csv      # Top 5 commercial stocking recommendations
